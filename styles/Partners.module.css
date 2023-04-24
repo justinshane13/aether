@@ -1,0 +1,155 @@
+.partners {
+    padding: 0px 50px;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partnersSection1 {
+    padding: 100px 50px 0px 50px;
+}
+
+.partnersSection1 > h1 {
+    font-weight: 900;
+    font-size: 4em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+}
+
+.partnersSection1 > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 160%;
+    color: #656D9F;
+}
+
+.partnersSection2Container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.partnersSection2 {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-gap: 50px;
+}
+
+.partnersSection2 > div > h2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1.8em;
+    line-height: 160%;
+    color: #656D9F;
+    margin: 13px 0px 0px 0px;
+}
+
+.partnersSection2 > div > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 160%;
+    color: #656D9F;
+    margin-top: 6px;
+}
+
+.partnersSection3 {
+    padding: 0px 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partnersSection3Image {
+    border-radius: 75px;
+    border: 5px solid #5FCFA9;
+}
+
+.partnersSection3 > div {
+    margin-left: 50px;
+}
+
+.partnersSection3Quote {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 160%;
+    color: #656D9F;
+
+}
+
+.partnersSection3Customer {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: .9em;
+    line-height: 160%;
+    color: #656D9F;
+    margin: 0;
+}
+
+.partnersSection3Company {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: .9em;
+    line-height: 160%;
+    color: #656D9F;
+    margin: 0;
+}
+
+.partnersSection4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.partnersSection4 > h2 {
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #1D293F;
+    margin: 0;
+}
+
+.partnersSection4 > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 160%;
+    text-align: center;
+    color: #656D9F;
+    max-width: 450px;
+}
+
+.partnersContactLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 19px;
+    width: 136px;
+    height: 24px;
+    margin: 60px 0px 0px 0px;
+    background: #4A78AF;;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1em;
+    line-height: 120%;
+    font-weight: 700;
+    border: 2px solid #4A78AF;;
+    transition-duration: .5s;
+    z-index: 1;
+  }
+  
+  .partnersContactLink:hover {
+    background: #FFF;
+    color: #4A78AF;;
+    transition-duration: .5s;
+  }

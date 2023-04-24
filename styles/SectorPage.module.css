@@ -1,0 +1,73 @@
+.sectorPage {
+    padding: 0px 50px;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sectorPageSection1 {
+    padding: 0px 50px;
+    margin-top: 100px;
+}
+
+.sectorPageSection1 > h1 {
+    font-weight: 900;
+    font-size: 4em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+    margin-bottom: 0;
+}
+
+.sectorPageSection1 > div {
+    display: flex;
+    margin-top: 50px;
+}
+
+.sectorPageSection1 > div > div > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 160%;
+    color: #656D9F;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.sectorPageSection1Image {
+    margin-left: 50px;
+}
+
+.sectorPageSection2 {
+    padding: 0px 50px;
+    margin-top: 100px;
+}
+
+.sectorPageSection2 > p {
+    color: #5FCFA9;    
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.sectorPageSection2 > h2 {
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+    margin: 0;
+}
+
+.sectorPageSection2 > div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.sectorPageSection2Tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

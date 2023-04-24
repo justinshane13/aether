@@ -1,0 +1,140 @@
+.contact {
+    padding: 0px 50px;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactSection1 {
+    padding: 0px 50px;
+    margin-top: 150px;
+}
+
+.contactSection1 > h1 {
+    font-weight: 900;
+    font-size: 4em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+}
+
+.contactSection1 > div {
+    display: flex;
+}
+
+.contactSection1 > div > div {
+    margin-right: 100px;
+}
+
+.contactSection1 > div > div > h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 160%;
+    color: #5E6191;
+}
+
+.contactSection1 > div > div > p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 1.2em;
+    line-height: 160%;
+    color: #5E6191;
+    margin: 0;
+}
+
+.contactSection2 {
+    padding: 0px 50px;
+    margin-top: 100px;
+}
+
+.contactSection2 > h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 160%;
+    color: #5E6191;
+}
+
+.contactSection2 > div {
+    display: flex;
+    align-items: flex-start;
+}
+
+.contactSection2 > div > div > p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 1.2em;
+    line-height: 160%;
+    color: #5E6191;
+    max-width: 600px;
+    margin: 0px 0px 20px 0px;
+}
+
+.contactSection2 > div > form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    min-width: 340px;
+    margin-left: 50px;
+}
+
+.contactSection2Name {
+    height: 30px;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    font-family: "Montserrat";
+    font-size: 1em;
+    line-height: 160%;
+}
+
+.contactSection2Email {
+    height: 30px;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 10px;
+    font-family: "Montserrat";
+    font-size: 1em;
+}
+
+.contactSection2Message {
+    height: 60px;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 10px;
+    font-family: "Montserrat";
+    font-size: 1em;
+}
+
+.contactSection2Send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 19px;
+    height: 44px;
+    margin-top: 10px;
+    background: #4A78AF;;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1em;
+    line-height: 120%;
+    font-weight: 700;
+    border: 2px solid #4A78AF;;
+    transition-duration: .5s;
+    z-index: 1;
+    cursor: pointer;
+    font-family: 'Montserrat'
+}
+  
+.contactSection2Send:hover {
+    background: #FFF;
+    color: #4A78AF;;
+    transition-duration: .5s;
+}

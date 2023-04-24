@@ -1,0 +1,163 @@
+.SPDPRK {
+    padding: 0px 50px;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SPDPRKSection1 {
+    padding: 100px 50px 0px 50px;
+}
+
+.SPDPRKSection1 > h1 {
+    font-weight: 900;
+    font-size: 4em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+}
+
+.underlineBackground {
+    background: url("/underline.png") no-repeat;
+    background-position: left 170px top 45px;
+    height: 105px;
+}
+
+.SPDPRKSection1 > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 160%;
+    color: #656D9F;
+}
+
+.SPDPRKSection2 {
+    padding: 0px 50px;
+    margin-top: 100px;
+}
+
+.SPDPRKSection2 > h2 {
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+}
+
+.SPDPRKSection2 > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #FFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 12px;
+    min-height: 200px;
+    margin-top: 50px;
+}
+
+.SPDPRKSection2Example {
+    display: flex;
+    flex-direction: column;
+}
+
+.SPDPRKSection2ExampleText > h3 {
+    font-weight: 900;
+    font-size: 1.5em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+    margin: 0;
+}
+
+.SPDPRKSection2ExampleText > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 160%;
+    color: #656D9F;
+}
+
+.SPDPRKSection2Image {
+    border-radius: 12px;
+    margin-left: 60px;
+}
+
+.SPDPRKSection3 {
+    padding: 0px 50px;
+    margin-top: 100px;
+}
+
+.SPDPRKSection3 > h2 {
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+}
+
+.SPDPRKSection3Benefits {
+    display: flex;
+    justify-content: space-around;
+}
+
+.SPDPRKSection3Benefits > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.SPDPRKSection3Benefits > div > p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 160%;
+    text-align: center;
+    color: #656D9F;
+}
+
+.SPDPRKSection4 {
+    padding: 0px 50px;
+    margin-top: 100px;
+}
+
+.SPDPRKSection4Text {
+    display: flex;
+}
+
+.SPDPRKSection4Text > h2 {
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+}
+
+.SPDPRKSection4Text > div > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 160%;
+    color: #656D9F;
+}
+
+.SPDPRKSection4ImagesContainer {
+    position: relative;
+    min-height: 450px;
+}
+
+.SPDPRKSection4Images {
+    position: absolute;
+    right: -150px;
+    top: 30px;
+}
+
+.SPDPRKSection4Image {
+    margin-left: 30px;
+    border-radius: 12px;
+}
