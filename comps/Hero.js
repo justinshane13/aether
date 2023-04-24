@@ -11,7 +11,7 @@ const Hero = () => {
                 <Link className={styles.heroLink} href="/contact">Request a Demo</Link>
             </div>
             <div className={styles.heroImage}>
-                <Image src="/logo.svg" width={412} height={120} />
+                <Image src="/sample_hero.jpg" width={879} height={709} />
             </div>
         </div>
     );

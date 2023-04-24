@@ -172,6 +172,11 @@
   transition-duration: .5s;
 }
 
+.heroImage {
+  margin-left: -300px;
+  z-index: -1;
+}
+
 .banner {
   margin-top: 150px;
   width: 100%;

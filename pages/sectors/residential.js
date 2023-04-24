@@ -1,6 +1,6 @@
 import SectorPage from '@/comps/SectorPage';
 
-const Residential= () => {
+const Residential = () => {
     return (
         <SectorPage
             name="Residential Complexes"
