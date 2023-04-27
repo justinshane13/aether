@@ -72,7 +72,7 @@ const SPDPRK = () => {
                 <div className={styles.SPDPRKSection4ImagesContainer}>
                     <div className={styles.SPDPRKSection4Images}>
                         <Image className={styles.SPDPRKSection4Image} src="/hand_crafted.jpg" width={300} height={300} />
-                        <Image className={styles.SPDPRKSection4Image} src="/customer.jpg" width={300} height={300} unoptimized/>
+                        <Image className={styles.SPDPRKSection4Image} src="/customer.jpg" width={300} height={300} />
                         <Image className={styles.SPDPRKSection4Image} src="/family.jpg" width={300} height={300} />
                     </div>
                 </div>
