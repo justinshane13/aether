@@ -7,7 +7,7 @@ const SPDPRK = () => {
         <div className={styles.SPDPRK}>
             <div className={styles.SPDPRKSection1}>
                 <h1 className={styles.underlineBackground}>This is SPDPRK</h1>
-                <p>SPDPRK is the simplest, most effective way for parking customers to use your garage. We’ve combined first-class hardware with innovative software to create an excellent user experience. Instead of sitting at the exit gate trying to pay, customers can complete the transaction on their phone before they reach the exit.</p>
+                <p>SPDPRK is the simplest, most effective way for parking customers to use your garage. We’ve combined first-class hardware with innovative software to create an excellent user experience. Your customers can scan their ticket and pay for parking using their phone for every step.</p>
             </div>
             <div className={styles.SPDPRKSection2}>
                 <h2>SPDPRK can adapt to your organization’s unique requirements. Here are some examples:</h2>
@@ -72,8 +72,8 @@ const SPDPRK = () => {
                 <div className={styles.SPDPRKSection4ImagesContainer}>
                     <div className={styles.SPDPRKSection4Images}>
                         <Image className={styles.SPDPRKSection4Image} src="/hand_crafted.jpg" width={300} height={300} />
-                        <Image className={styles.SPDPRKSection4Image} src="/customer_service.jpg" width={300} height={300} />
-                        <Image className={styles.SPDPRKSection4Image} src="/family_owned.jpg" width={300} height={300} />
+                        <Image className={styles.SPDPRKSection4Image} src="/customer.jpg" width={300} height={300} unoptimized/>
+                        <Image className={styles.SPDPRKSection4Image} src="/family.jpg" width={300} height={300} />
                     </div>
                 </div>
             </div>

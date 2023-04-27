@@ -20,16 +20,16 @@ const Company = () => {
                         <div className={styles.companyPhotoOverlay}></div>
                     </div>
                     <div className={styles.companyPhoto2}>
-                        <Image className={styles.companyPhoto} src="/family_owned.jpg" width={100} height={100} unoptimized />
+                        <Image className={styles.companyPhoto} src="/family.jpg" width={100} height={100} unoptimized />
                         <div className={styles.companyPhotoTextContainer}>
-                            <p className={styles.companyPhotoText}>Family-owned and operated since its inception</p>
+                            <p className={styles.companyPhotoText}>Family-owned and operated since our inception</p>
                         </div>
                         <div className={styles.companyPhotoOverlay}></div>
                     </div>
                     <div className={styles.companyPhoto3}>
                         <Image className={styles.companyPhoto} src="/los_angeles.jpg" width={100} height={100} unoptimized />
                         <div className={styles.companyPhotoTextContainer}>
-                            <p className={styles.companyPhotoText}>All hardware and software built in our Gardena, CA factory</p>
+                            <p className={styles.companyPhotoText}>All hardware and software built in our factory in Los Angeles, CA</p>
                         </div>
                         <div className={styles.companyPhotoOverlay}></div>
                     </div>
@@ -41,9 +41,9 @@ const Company = () => {
                         <div className={styles.companyPhotoOverlay}></div>
                     </div>
                     <div className={styles.companyPhoto5}>
-                        <Image className={styles.companyPhoto} src="/customer_service.jpg" width={100} height={100} unoptimized />
+                        <Image className={styles.companyPhoto} src="/customer.jpg" width={100} height={100} unoptimized />
                         <div className={styles.companyPhotoTextContainer}>
-                            <p className={styles.companyPhotoText}>Your questions answered by a real person</p>
+                            <p className={styles.companyPhotoText}>No call centers — you have direct contact to our support team</p>
                         </div>
                         <div className={styles.companyPhotoOverlay}></div>
                     </div>
