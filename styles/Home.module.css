@@ -333,6 +333,7 @@
   text-align: center;
   color: #282D6C;
   margin: 5;
+  transition-duration: .3s;
 }
 
 .sectorLink:hover {
@@ -347,7 +348,6 @@
   height: 65px;
   text-decoration: none;
   border-radius: 10px;
-  margin: 10px;
   text-align: center;
   font-weight: 700;
   font-size: 1.2em;
@@ -355,6 +355,7 @@
   text-align: center;
   color: #282D6C;
   margin: 5;
+  transition-duration: .3s;
 }
 
 .companyBackgroundContainer {
