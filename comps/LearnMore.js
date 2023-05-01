@@ -11,7 +11,7 @@ const LearnMore = () => {
     }
 
     return (
-        <Link className={styles.SPDPRKHighlightLink} href="/spdprk" onMouseEnter={trigger} onMouseLeave={trigger}>Learn More<Image className={`${styles.arrowRight} ${isHovered ? styles.slideRight : ''}`} src="/arrow_right.png" width={24} height={24} /></Link>
+        <Link className={styles.SPDPRKHighlightLink} href="/spdprk" onMouseEnter={trigger} onMouseLeave={trigger}>Learn More<Image className={`${styles.arrowRight} ${isHovered ? styles.slideRight : ''}`} src="/arrow_right.svg" width={24} height={24} /></Link>
     );
 }
  

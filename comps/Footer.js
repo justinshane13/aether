@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className={styles.footerLinksColumn}>
                         <p className={styles.footerLinksTitle}>Products</p>
                         <Link className={styles.footerLink} href="/spdprk">SPDPRK Technology</Link>
-                        <Link className={styles.footerLink} href="/legacy">Legacy Equipment</Link>
+                        <Link className={styles.footerLink} href="/software">Software & Reports</Link>
                     </div>
                     <div className={styles.footerLinksColumn}>
                         <p className={styles.footerLinksTitle}>Resources</p>

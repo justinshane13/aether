@@ -9,6 +9,7 @@ import SPDPRKHighlight from '@/comps/SPDPRKHighlight'
 import Sectors from '@/comps/Sectors'
 import Company from '@/comps/Company'
 import Upgrade from '@/comps/Upgrade'
+import Fade from 'react-reveal/Fade'
 
 export default function Home() {
   return (
@@ -21,14 +22,17 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        <script src="https://unpkg.com/scrollreveal"></script>
       </Head>
       <main className={styles.main}>
         <Hero />
-        <Banner />
-        <SPDPRKHighlight />
-        <Sectors />
-        <Company />
-        <Upgrade />
+        <Fade bottom>
+          <SPDPRKHighlight />
+          <Banner />
+          <Sectors />
+          <Company />
+          <Upgrade />
+        </Fade>
       </main>
     </>
   )

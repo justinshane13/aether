@@ -9,7 +9,7 @@ const Hotel = () => {
                 "SPDPRK offers various parking solutions which can benefit hotels, these Customized solutions can also be created to meet the specific needs and requirements of each hotel, ensuring that guests can enjoy a hassle-free parking experience.",
                 "Overall, providing efficient parking solutions can be a significant advantage for hotels, enhancing guest satisfaction and loyalty."
             ]}
-            image="/fall_road.jpg"
+            image="/hotel_image.jpg"
             characteristics={[
                 {
                     image: "/hand_crafted.jpg",

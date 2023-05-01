@@ -11,7 +11,7 @@ const SectorPage = ({ name, description, image, characteristics }) => {
                     <div>
                         {description.map(p => <p className={styles.sectorParagraph}>{p}</p>)}
                     </div>
-                    <Image className={styles.sectorPageSection1Image} src={image} width={400} height={400} />
+                    <Image className={styles.sectorPageSection1Image} src={image} width={600} height={600} unoptimized/>
                 </div>
             </div>
             <div className={styles.sectorPageSection2}>
