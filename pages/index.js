@@ -9,7 +9,6 @@ import SPDPRKHighlight from '@/comps/SPDPRKHighlight'
 import Sectors from '@/comps/Sectors'
 import Company from '@/comps/Company'
 import Upgrade from '@/comps/Upgrade'
-import Fade from 'react-reveal/Fade'
 
 export default function Home() {
   return (
@@ -26,13 +25,11 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Hero />
-        <Fade bottom>
-          <SPDPRKHighlight />
-          <Banner />
-          <Sectors />
-          <Company />
-          <Upgrade />
-        </Fade>
+        <SPDPRKHighlight />
+        <Banner />
+        <Sectors />
+        <Company />
+        <Upgrade />
       </main>
     </>
   )
