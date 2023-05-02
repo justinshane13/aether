@@ -6,7 +6,7 @@ import Link from 'next/link'
 import LearnMore from '@/comps/LearnMore'
 import Banner from '@/comps/Banner'
 import SPDPRKHighlight from '@/comps/SPDPRKHighlight'
-import Sectors from '@/comps/Sectors'
+import SectorsLinks from '@/comps/SectorsLinks'
 import Company from '@/comps/Company'
 import Upgrade from '@/comps/Upgrade'
 
@@ -26,8 +26,7 @@ export default function Home() {
       <main className={styles.main}>
         <Hero />
         <SPDPRKHighlight />
-        <Banner />
-        <Sectors />
+        <SectorsLinks />
         <Company />
         <Upgrade />
       </main>

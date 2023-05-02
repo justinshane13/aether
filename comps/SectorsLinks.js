@@ -1,6 +1,7 @@
 import SectorLink from "./SectorLink";
 import styles from '@/styles/Home.module.css'
-const Sectors = () => {
+
+const SectorsLinks = () => {
     return (
         <div className={styles.sectorsHighlight}>
             <div className={styles.sectorsText}>
@@ -23,4 +24,4 @@ const Sectors = () => {
     );
 }
  
-export default Sectors;
+export default SectorsLinks;

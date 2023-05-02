@@ -24,6 +24,11 @@
 .sectorPageSection1 > div {
     display: flex;
     margin-top: 50px;
+    justify-content: space-between;
+}
+
+.sectorPageSection1 > div > div {
+    width: 48%;
 }
 
 .sectorPageSection1 > div > div > p {
@@ -37,7 +42,7 @@
 }
 
 .sectorPageSection1Image {
-    margin-left: 50px;
+    border-radius: 12px;
 }
 
 .sectorPageSection2 {

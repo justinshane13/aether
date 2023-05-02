@@ -5,10 +5,12 @@ import Image from "next/image";
 
 const SectorLink = ({ sector, sectorFull }) => {
     return (
-        <Link className={styles.sectorLink} href={`/sectors/${sector.toLowerCase()}`}>
-            <Image src={`/${sector}.svg`} width={60} height={60} />
-            <p className={styles.sectorLinkText}>{sectorFull}</p>
-        </Link>
+        <div className={styles.sectorLinkContainer}>
+            <Link className={styles.sectorLink} href={`/sectors/${sector.toLowerCase()}`}>
+                <Image src={`/${sector}.svg`} width={60} height={60} />
+                <p className={styles.sectorLinkText}>{sectorFull}</p>
+            </Link>
+        </div>
     );
 }
  
