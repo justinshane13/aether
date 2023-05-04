@@ -170,9 +170,13 @@
   transition-duration: .3s;
 }
 
-.heroImage {
-  margin-left: -300px;
+.heroVideoContainer {
+  margin-left: -100px;
   z-index: -1;
+}
+
+.heroVideo {
+  width: 600px;
 }
 
 .banner {

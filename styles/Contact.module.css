@@ -33,7 +33,7 @@
     font-weight: 700;
     font-size: 1.5em;
     line-height: 160%;
-    color: #5E6191;
+    color: #282D6C;
 }
 
 .contactSection1 > div > div > p {
@@ -41,7 +41,7 @@
     font-style: normal;
     font-size: 1.2em;
     line-height: 160%;
-    color: #5E6191;
+    color: #282D6C;
     margin: 0;
 }
 
@@ -55,7 +55,7 @@
     font-weight: 700;
     font-size: 1.5em;
     line-height: 160%;
-    color: #5E6191;
+    color: #282D6C;
 }
 
 .contactSection2 > div {
@@ -68,7 +68,7 @@
     font-style: normal;
     font-size: 1.2em;
     line-height: 160%;
-    color: #5E6191;
+    color: #282D6C;
     max-width: 600px;
     margin: 0px 0px 20px 0px;
 }
@@ -120,7 +120,7 @@
     padding: 12px 19px;
     height: 44px;
     margin-top: 10px;
-    background: #4A78AF;;
+    background: #4A78AF;
     border-radius: 12px;
     text-decoration: none;
     color: #FFF;

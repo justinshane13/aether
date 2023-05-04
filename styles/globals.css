@@ -12,7 +12,3 @@ body {
 .content {
   margin: 0 auto;
 }
-
-.react-reveal{
-  animation-fill-mode: backwards !important;
-}

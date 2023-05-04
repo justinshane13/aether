@@ -30,12 +30,12 @@
     font-weight: 400;
     font-size: 1.5em;
     line-height: 160%;
-    color: #656D9F;
+    color: #282D6C;
 }
 
 .SPDPRKSection2 {
     padding: 0px 50px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .SPDPRKSection2 > h2 {
@@ -46,15 +46,34 @@
     color: #282D6C;
 }
 
-.SPDPRKSection2 > div {
+.SPDPRKSection2 > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 160%;
+    color: #282D6C;
+}
+
+.SPDPRKSection2ExamplesContainer {
+    margin-top: 100px;
+}
+
+.SPDPRKSection2ExamplesContainer > h2 {
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+}
+
+.SPDPRKSection2Example {
     display: flex;
-    justify-content: space-between;
-    padding: 50px;
+    flex-direction: column;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+    padding: 30px;
     background-color: #FFF;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 12px;
-    min-height: 200px;
-    margin-top: 50px;
+    margin: 20px 0px 0px 0px;
 }
 
 .SPDPRKSection2Example {
@@ -62,21 +81,22 @@
     flex-direction: column;
 }
 
-.SPDPRKSection2ExampleText > h3 {
+.SPDPRKSection2Example > h3 {
     font-weight: 900;
-    font-size: 1.5em;
+    font-size: 1.4em;
     line-height: 140%;
     letter-spacing: 1px;
     color: #282D6C;
     margin: 0;
 }
 
-.SPDPRKSection2ExampleText > p {
+.SPDPRKSection2Example > p {
     font-family: 'Montserrat';
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: .9em;
     line-height: 160%;
-    color: #656D9F;
+    color: #282D6C;
+    margin: 10px 0px 0px 0px;
 }
 
 .SPDPRKSection2Image {
@@ -115,10 +135,10 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 1.3em;
     line-height: 160%;
     text-align: center;
-    color: #656D9F;
+    color: #282D6C;
 }
 
 .SPDPRKSection4 {
@@ -136,6 +156,7 @@
     line-height: 140%;
     letter-spacing: 1px;
     color: #282D6C;
+    margin: 0;
 }
 
 .SPDPRKSection4Text > div > p {
@@ -143,7 +164,9 @@
     font-weight: 400;
     font-size: 1.2em;
     line-height: 160%;
-    color: #656D9F;
+    color: #282D6C;
+    margin-left: 30px;
+    margin-top: 0;
 }
 
 .SPDPRKSection4ImagesContainer {

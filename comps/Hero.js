@@ -10,8 +10,10 @@ const Hero = () => {
                 <p className={styles.heroParagraph}>SPDPRK is designed and built to make the parking process fast, straight-forward, and secure. Both hardware and software ensure that your customers have a seamless experience, and that you are in control of what’s happening in your garage.</p>
                 <Link className={styles.heroLink} href="/contact">Request a Demo</Link>
             </div>
-            <div className={styles.heroImage}>
-                <Image src="/sample_hero.jpg" width={879} height={709} />
+            <div className={styles.heroVideoContainer}>
+                <video className={styles.heroVideo} autoPlay muted loop>
+                    <source src="/hero_preview.mp4" type="video/mp4"></source>
+                </video>
             </div>
         </div>
     );

@@ -16,12 +16,8 @@ const FAQ = () => {
                 "
                 />
                 <FAQTile
-                    question="How does your product or service solve my problem better than other solutions?"
-                    answer="We are a responsive team and very navigable organization. A small organization with an eye for personal responsiveness and effective problem solving versus market share. We are geniunely interested in the clients' challenges."
-                />
-                <FAQTile
                     question="What are the benefits of using your product or service?"
-                    answer="Here are some of the benefits: Our products are never obsolete. We are a one-stop-shop, so we will provide everything you need. Our products give consistency, with the most robust native reporting available. Hardware and software designed to last beyond the typical end of life cycle."
+                    answer="Here are some of the benefits: Our products are never obsolete. Our goal is to create a total solution for your operation, so we will provide everything you need. Our products give consistency, with the most robust native reporting available. Hardware and software designed to last beyond the typical end of life cycle."
                 />
                 <FAQTile
                     question="How do I operate the ticket dispenser?"

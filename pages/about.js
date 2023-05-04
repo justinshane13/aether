@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "@/styles/About.module.css"
 import Image from "next/image";
+import Upgrade from "@/comps/Upgrade";
 
 const About = () => {
     return (
@@ -20,19 +21,27 @@ const About = () => {
                         <h2 className={styles.underlineBackground}>We are focused on creating the highest quality user experience</h2>
                         <div>
                             <div className={styles.aboutSection2GridElement}>
-                                <Image src="/fall_road.png" width={30} height={30} />
+                                <div className={styles.aboutSection2ImageContainer}>
+                                    <Image src="/handshake.svg" width={60} height={60} />
+                                </div>
                                 <p>Keep your local partner, we work with anyone</p>
                             </div>
                             <div className={styles.aboutSection2GridElement}>
-                                <Image src="/fall_road.png" width={30} height={30} />
-                                <p>Get your customers in, out, and on with their lives</p>
+                                <div className={styles.aboutSection2ImageContainer}>
+                                    <Image src="/efficient.svg" width={70} height={70} />
+                                </div>
+                                <p>Designed for fast and efficient ingress and egress</p>
                             </div>
                             <div className={styles.aboutSection2GridElement}>
-                                <Image src="/fall_road.png" width={30} height={30} />
+                                <div className={styles.aboutSection2ImageContainer}>
+                                    <Image src="/flexible.svg" width={50} height={50} />
+                                </div>
                                 <p>Set up flexible payment systems that work for you</p>
                             </div>
                             <div className={styles.aboutSection2GridElement}>
-                                <Image src="/fall_road.png" width={30} height={30} />
+                                <div className={styles.aboutSection2ImageContainer}>
+                                    <Image src="/phone.svg" width={60} height={60} />
+                                </div>
                                 <p>Speak with a real person — our support staff are all in the USA</p>
                             </div>
                         </div>
@@ -55,6 +64,7 @@ const About = () => {
                         <p>Requirements change as needs and technology evolve. Secom offers long-term solutions for your investment. We have a built-in upgrade path for all systems, advanced replacement and a zero obsolescence policy on everything we produce for the life of the system.</p>
                         <p>Secom's audit trail is unsurpassed. Reporting of all lane activities are stored on a secure server for review. All events are recorded, from video and buttons pushed to equipment action, nothing is omitted or neglected, so you are always know what happens in your garage.</p>
                     </div>
+                    <Upgrade />
                 </div>
             </main>
         </>
