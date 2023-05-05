@@ -55,6 +55,10 @@ const SPDPRK = () => {
                         <p>SPDPRK can reduce the equipment footprint or human resource allocation of a cashier to those that still see the value in the personal touch of having people dealing with people in the parking process.</p>
                     </div>
                 </div>
+                <div className={styles.background3}></div>
+                <Image className={styles.dots} src="/dot_shape.png" width={200} height={200} />
+                <Image className={styles.dots2} src="/dot_shape.png" width={200} height={200} />
+
             </div>
             <div className={styles.SPDPRKSection3}>
                 <h2>Highlights of using SPDPRK</h2>

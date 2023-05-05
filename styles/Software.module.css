@@ -1,0 +1,19 @@
+.software {
+    padding: 0;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.softwareSection1 {
+    padding: 100px 50px 0px 50px;
+}
+
+.softwareSection1 > h1 {
+    font-weight: 900;
+    font-size: 4em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+}

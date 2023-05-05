@@ -140,6 +140,7 @@
 
 .aboutSection4 {
     margin-top: 150px;
+    position: relative;
 }
 
 .aboutSection4 > p {
@@ -149,3 +150,14 @@
     line-height: 160%;
     color: #282D6C;
 }
+
+.background3 {
+    position: absolute;
+    width: 491.08px;
+    height: 491.08px;
+    right: -150px;
+    top: 100px;
+    background: rgba(95, 207, 169, 0.1);
+    border-radius: 245.538px;
+    z-index: -1;
+  }

@@ -137,7 +137,8 @@
 
 .heroParagraph {
   font-size: 1.2em;
-  margin-top: 16px 0px 0px 0px;
+  max-width: 600px;;
+  margin: 16px 40px 0px 0px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -176,7 +177,7 @@
 }
 
 .heroVideo {
-  width: 600px;
+  width: 550px;
 }
 
 .banner {

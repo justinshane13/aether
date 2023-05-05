@@ -63,6 +63,7 @@ const About = () => {
                         <h2>In addition to a high-quality product, you get peace of mind</h2>
                         <p>Requirements change as needs and technology evolve. Secom offers long-term solutions for your investment. We have a built-in upgrade path for all systems, advanced replacement and a zero obsolescence policy on everything we produce for the life of the system.</p>
                         <p>Secom's audit trail is unsurpassed. Reporting of all lane activities are stored on a secure server for review. All events are recorded, from video and buttons pushed to equipment action, nothing is omitted or neglected, so you are always know what happens in your garage.</p>
+                        <div className={styles.background3}></div>
                     </div>
                     <Upgrade />
                 </div>

@@ -36,7 +36,38 @@
 .SPDPRKSection2 {
     padding: 0px 50px;
     margin-top: 50px;
+    position: relative;
 }
+
+.background3 {
+    position: absolute;
+    width: 491.08px;
+    height: 491.08px;
+    left: -150px;
+    top: 900px;
+    background: rgba(95, 207, 169, 0.1);
+    border-radius: 245.538px;
+    z-index: -1;
+  }
+
+  .dots {
+    position: absolute;
+    top: 1850px;
+    right: -37px;
+    width: 250px;
+    height: 250px;
+    z-index: -1;
+  }
+
+  .dots2 {
+    position: absolute;
+    top: 2290px;
+    left: -37px;
+    width: 250px;
+    height: 250px;
+    z-index: -1;
+    opacity: .7;
+  }
 
 .SPDPRKSection2 > h2 {
     font-weight: 900;

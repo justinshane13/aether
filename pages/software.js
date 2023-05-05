@@ -3,7 +3,9 @@ import styles from '@/styles/Software.module.css'
 const Software = () => {
     return (
         <div className={styles.software}>
-            <h1>Software</h1>
+            <div className={styles.softwareSection1}>
+                <h1>Software & Reports</h1>
+            </div>
         </div>
     );
 }

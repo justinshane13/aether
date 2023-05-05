@@ -14,7 +14,7 @@ const SPDPRKHighlight = () => {
             <p className={styles.SPDPRKHighlightParagraph}>We engineered SPDPRK technology to be highly customizable, while staying true to the core values we know to be important in any parking operation.</p>
             <LearnMore page="/spdprk"/>
           </div>
-          <Image className={styles.SPDPRKHighlightImage} src="/iphone.png" width={237} height={503} />
+          <Image className={styles.SPDPRKHighlightImage} src="/iphone.svg" width={237} height={503} />
         </div>
     );
 }
