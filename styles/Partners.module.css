@@ -30,13 +30,14 @@
 .partnersSection2Container {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .partnersSection2 {
     display: grid;
-    grid-template-columns: 500px 500px;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 50px;
+    max-width: 1150px;
 }
 
 .partnersSection2 > div > h2 {
@@ -160,4 +161,18 @@
     background: #FFF;
     color: #4A78AF;;
     transition-duration: .5s;
+  }
+
+  @media (max-width: 1250px) {
+    .partnersSection1 {
+        padding: 100px 0px 0px 0px;
+    }
+
+    .partnersSection2 {
+        padding: 0;
+    }
+
+    .partnersSection3 {
+        padding: 0;
+    }
   }

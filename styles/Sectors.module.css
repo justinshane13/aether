@@ -8,10 +8,14 @@
 }
 
 .sectors > h1 {
-    padding: 100px 50px 0px 50px;
+    padding: 100px 0px 0px 0px;
     font-weight: 900;
     font-size: 4em;
     line-height: 140%;
     letter-spacing: 1px;
     color: #282D6C;
+}
+
+@media (max-width: 1250px) {
+
 }

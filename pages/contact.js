@@ -22,7 +22,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className={styles.contactSection2}>
-                <h2>Or use our form</h2>
+                <h2>Contact form</h2>
                 <div>
                     <div>
                         <p>We are available to answer your questions, set up a demo, or explain how our products work in more detail. Just leave us your name, email, and message using this form.</p>

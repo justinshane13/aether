@@ -10,11 +10,15 @@ const SPDPRKHighlight = () => {
             <div className={styles.SPDPRKUnderlineContainer}>
               <p className={`${styles.SPDPRKHighlightTitle} ${styles.underlineBackground}`}>This is SPDPRK.</p>
             </div>
-            <p className={styles.SPDPRKHighlightParagraph}>Customers using your parking garage should be in and out without hassle. SPDPRK technology makes the experience fast, seamless, and secure.</p>
-            <p className={styles.SPDPRKHighlightParagraph}>We engineered SPDPRK technology to be highly customizable, while staying true to the core values we know to be important in any parking operation.</p>
-            <LearnMore page="/spdprk"/>
           </div>
-          <Image className={styles.SPDPRKHighlightImage} src="/iphone.svg" width={237} height={503} />
+          <div className={styles.SPDPRKHighlightBottomSection}>
+            <div className={styles.SPDPRKHighlightBottomSectionText}>
+              <p className={styles.SPDPRKHighlightParagraph}>Customers using your parking garage should be in and out without hassle. SPDPRK technology makes the experience fast, seamless, and secure.</p>
+              <p className={styles.SPDPRKHighlightParagraph}>We engineered SPDPRK technology to be highly customizable, while staying true to the core values we know to be important in any parking operation.</p>
+              <LearnMore page="/spdprk"/>
+            </div>
+            <Image className={styles.SPDPRKHighlightImage} src="/iphone.svg" width={178} height={378} />
+          </div>
         </div>
     );
 }

@@ -182,10 +182,49 @@
     position: absolute;
     right: -150px;
     top: 30px;
+    display: flex;
+}
+
+.SPDPRKSection4ImageContainer {
+    margin-left: 30px;
+    width: 300px;
+    height: 300px;
 }
 
 .SPDPRKSection4Image {
-    margin-left: 30px;
     border-radius: 12px;
     object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1250px) {
+    .SPDPRKSection1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .SPDPRKSection2 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .SPDPRKSection3 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .SPDPRKSection3Benefits > div > p {
+        font-size: 1.1em;
+    }
+
+    .SPDPRKSection4 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .SPDPRKSection4ImageContainer {
+        width: 250px;
+        height: 250px;
+    }
 }

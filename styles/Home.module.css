@@ -73,6 +73,7 @@
   top: 1000px;
   background: #00A578;
   opacity: .1;
+  z-index: -1;
 }
 
 .navbar {
@@ -85,6 +86,46 @@
   background: #FCFCFF;
   filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
   z-index: 2;
+}
+
+.hamburgerButton {
+  display: none;
+}
+
+.navbarCollapsible {
+  background: #FFF;
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: -500px;
+  left: 0px;
+  margin: 0;
+  transition-duration: .3s;
+}
+
+.navLinksCollapsible {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+}
+
+.navLinkCollapsible {
+  font-size: 1.4em;
+  text-decoration: none;
+  color: #73779F;
+  margin-left: 0px;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 400;
+  align-items: center;
+  transition-duration: .3s;
+}
+
+.navLinkCollapsible:hover {
+  color: #000;
+  transition-duration: .3s;
 }
 
 .navLogoLink {
@@ -118,10 +159,11 @@
   align-items: center;
   height: 700px;
   margin-top: 40px;
+  padding: 0px 50px;
 }
 
 .heroText {
-  width: 720px;
+  max-width: 720px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -178,6 +220,7 @@
 
 .heroVideo {
   width: 550px;
+  margin-left: 50px;
 }
 
 .banner {
@@ -205,6 +248,7 @@
 
 .SPDPRKHighlight {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   background: #FFF;
@@ -221,16 +265,7 @@
   line-height: 140%;
   color: #282D6C;
   margin: 0 0 50px 0;
-  width: 770px;
-}
-
-.SPDPRKHighlightParagraph {
-  font-family: 'Montserrat';
-  font-weight: 400;
-  font-size: 1.5em;
-  line-height: 160%;
-  color: #656D9F;
-  width: 670px;
+  max-width: 1150px;
 }
 
 .underlineBackground {
@@ -239,8 +274,24 @@
   height: 105px;
 }
 
+.SPDPRKHighlightBottomSection {
+  display: flex;
+  max-width: 1150px;
+}
+
+.SPDPRKHighlightParagraph {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 160%;
+  color: #656D9F;
+  max-width: 1000px;
+  margin: 0;
+}
+
 .SPDPRKHighlightImage {
   margin-left: 0px;
+  padding: 0px 60px;
 }
 
 .SPDPRKHighlightLink {
@@ -267,16 +318,17 @@
 .sectorsHighlight {
   display: flex;
   flex-direction: column;
-  margin-top: 150px;
+  margin: 150px 0px 0px 0px;
   position: relative;
+  padding: 0px 50px;
 }
 
 .sectorsText {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
   margin: auto;
-  width: 1100px;
+  max-width: 1100px;
 }
 
 .sectorsTitle {
@@ -286,7 +338,8 @@
   letter-spacing: 1px;
   color: #282D6C;
   margin: 0;
-  width: 450px;
+  max-width: 450px;
+  min-width: 300px;
 }
 
 .sectorsParagraph {
@@ -296,19 +349,19 @@
   font-size: 1.2em;
   line-height: 160%;
   color: #656D9F;
-  width: 620px;
-  margin-left: 100px;
+  max-width: 620px;
+  margin-left: 50px;
 }
 
 .sectorsGrid {
   display: grid;
-  grid-template-columns: 400px 400px 400px;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
-  width: calc(100% - 200px);
-  padding: 0px 50px;
-  margin: 50px;
+  width: 100%;
+  margin: 50px auto;
   justify-content: center;
   -webkit-backface-visibility: hidden;
+  z-index: 1;
 }
 
 .sectorLinkContainer {
@@ -331,7 +384,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 380px;
+  width: calc(100% - 20px);
   height: 100%;
   box-sizing: border-box;
   padding: 30px 30px 10px 30px;
@@ -355,9 +408,8 @@
 .company {
   display: flex;
   flex-direction: column;
-  padding-top: 200px;
-  padding-bottom: 0px;
-  width: 1100px;
+  padding: 200px 50px 0px 50px;
+  max-width: 1100px;
   margin: 0px auto -100px auto;
   background: url('/dot_shape.png') no-repeat;
   background-position: top 820px right 0px;
@@ -418,7 +470,7 @@
   grid-template-rows: 200px 200px 200px 200px 200px 200px 200px;
   grid-gap: 40px;
   align-self: flex-end;
-  margin-right: 100px;
+  margin-left: 50px;
   margin-top: -150px;
   margin-bottom: 0px;
   position: relative;
@@ -648,4 +700,136 @@
   justify-content: center;
   color: #5E6191;
   margin-top: 200px;
+}
+
+@media (max-width: 1250px) {
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 250px;
+  }
+  
+  .heroText {
+    margin-top: 100px;
+    max-width: 1000px;
+  }
+  
+  .heroTitle {
+    max-width: 750px;
+  }
+  
+  .heroParagraph {
+    max-width: 1000px;
+  }
+  
+  .heroLink {
+    margin: 70px 0px 0px 0px;
+  }
+  
+  .heroLink:hover {
+    background: #FFF;
+    color: #030852;
+    transition-duration: .3s;
+  }
+  
+  .heroVideoContainer {
+    margin-left: -100px;
+  }
+  
+  .heroVideo {
+    width: 750px;
+  }
+
+  .SPDPRKHighlight {
+    flex-direction: column;
+    margin: 350px 50px 0px 50px;
+  }
+  
+  .SPDPRKHighlightTitle {
+    width: 100%;
+  }
+  
+  .SPDPRKHighlightParagraph {
+    width: 100%;
+  }
+  
+  .SPDPRKHighlightImage {
+    margin-left: 0px;
+  }
+
+  .sectorsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    width: calc(100% - 50px);
+    padding: 0px 0px;
+    margin: 50px auto 0px auto;
+  }
+
+  .sectorLinkContainer {
+    grid-column: span 2;
+  }
+
+  .sectorLinkContainer:nth-last-child(1):nth-child(odd) {
+    grid-column: 2 / span 2;
+  }
+
+  .companyParagraph {
+    max-width: 1000px;
+    width: 100%;
+  }
+
+  .companyPhotoGrid {
+    grid-template-columns: 340px 340px;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px 150px;
+    grid-gap: 40px;
+    align-self: flex-end;
+    margin: 0px auto 0px auto;
+  }
+
+  .companyPhotoOverlay {
+    margin-top: -344px;
+  }
+
+  .companyPhotoText {
+    position: absolute;
+    bottom: 30px;
+    width: 300px;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 2
+  }
+
+  .dots {
+    display: none;
+  }
+
+  .background7 {
+    position: absolute;
+    width: 100%;
+    height: 995px;
+    left: 0px;
+    top: 760px;
+    background: #00A578;
+    opacity: .1;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 800px) {
+  .hamburgerButton {
+    display: inline;
+  }
+
+  .expanded {
+    top: 68px;
+    transition-duration: .3s;
+  }
+
+  .navLinks {
+    display: none;
+  }
 }
