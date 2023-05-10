@@ -12,7 +12,7 @@ const Hero = () => {
             </div>
             <div className={styles.heroVideoContainer}>
                 <video className={styles.heroVideo} autoPlay muted loop>
-                    <source src="/hero_animation.mp4" type="video/mp4"></source>
+                    <source src="/hero_mp4.mp4" type="video/mp4"></source>
                 </video>
             </div>
         </div>
