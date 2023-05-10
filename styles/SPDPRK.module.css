@@ -25,10 +25,19 @@
     height: 105px;
 }
 
+.SPDPRKSection1 > h2 {
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+    margin-top: 50px;
+}
+
 .SPDPRKSection1 > p {
     font-family: 'Montserrat';
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.3em;
     line-height: 160%;
     color: #282D6C;
 }
@@ -39,50 +48,14 @@
     position: relative;
 }
 
-.background3 {
+.background7 {
     position: absolute;
-    width: 491.08px;
-    height: 491.08px;
-    left: -150px;
-    top: 900px;
-    background: rgba(95, 207, 169, 0.1);
-    border-radius: 245.538px;
-    z-index: -1;
-  }
-
-  .dots {
-    position: absolute;
-    top: 1850px;
-    right: -37px;
-    width: 250px;
-    height: 250px;
-    z-index: -1;
-  }
-
-  .dots2 {
-    position: absolute;
-    top: 2290px;
-    left: -37px;
-    width: 250px;
-    height: 250px;
-    z-index: -1;
-    opacity: .7;
-  }
-
-.SPDPRKSection2 > h2 {
-    font-weight: 900;
-    font-size: 2em;
-    line-height: 140%;
-    letter-spacing: 1px;
-    color: #282D6C;
-}
-
-.SPDPRKSection2 > p {
-    font-family: 'Montserrat';
-    font-weight: 400;
-    font-size: 1.3em;
-    line-height: 160%;
-    color: #282D6C;
+    width: calc(100vw + 400px);
+    height: calc(100% + 70px);
+    left: -400px;
+    top: 0px;
+    background: #00A578;
+    opacity: .1;
 }
 
 .SPDPRKSection2ExamplesContainer {
@@ -99,20 +72,20 @@
 
 .SPDPRKSection2Example {
     display: flex;
-    flex-direction: column;
-    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
-    padding: 30px;
-    background-color: #FFF;
-    border-radius: 12px;
-    margin: 20px 0px 0px 0px;
+    margin: 60px 0px 0px 0px;
 }
 
-.SPDPRKSection2Example {
+.SPDPRKSection2ExampleImage {
+    border-radius: 12px;
+}
+
+.SPDPRKSection2ExampleText {
     display: flex;
     flex-direction: column;
+    margin-left: 50px;
 }
 
-.SPDPRKSection2Example > h3 {
+.SPDPRKSection2ExampleText > h3 {
     font-weight: 900;
     font-size: 1.4em;
     line-height: 140%;
@@ -121,10 +94,10 @@
     margin: 0;
 }
 
-.SPDPRKSection2Example > p {
+.SPDPRKSection2ExampleText > p {
     font-family: 'Montserrat';
     font-weight: 400;
-    font-size: .9em;
+    font-size: 1.1em;
     line-height: 160%;
     color: #282D6C;
     margin: 10px 0px 0px 0px;
