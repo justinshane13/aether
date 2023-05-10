@@ -2,11 +2,20 @@ import styles from '@/styles/Software.module.css'
 
 const Software = () => {
     return (
-        <div className={styles.software}>
-            <div className={styles.softwareSection1}>
-                <h1>Software & Reports</h1>
-            </div>
-        </div>
+        <>
+            <Head>
+                <title>SPDPRK | Software</title>
+                <meta name="keywords" content="software" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+            </Head>
+            <main>
+                <div className={styles.software}>
+                    <div className={styles.softwareSection1}>
+                        <h1>Software & Reports</h1>
+                    </div>
+                </div>
+            </main>
+        </>
     );
 }
  

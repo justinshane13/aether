@@ -5,12 +5,21 @@ import Upgrade from '@/comps/Upgrade';
 
 const Sectors = () => {
     return (
-        <div className={styles.sectors}>
-            <h1>Sectors</h1>
-            <Banner />
-            <SectorsLinks />
-            <Upgrade />
-        </div>
+        <>
+            <Head>
+                <title>SPDPRK | Sectors</title>
+                <meta name="keywords" content="sectors" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+            </Head>
+            <main>
+                <div className={styles.sectors}>
+                    <h1>Sectors</h1>
+                    <Banner />
+                    <SectorsLinks />
+                    <Upgrade />
+                </div>
+            </main>
+        </>
     );
 }
  
