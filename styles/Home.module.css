@@ -142,6 +142,9 @@
   width: 550px;
   margin-left: 50px;
   box-shadow: #FFF 0px 0px 25px 10px;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
 }
 
 .banner {
