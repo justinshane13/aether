@@ -104,14 +104,13 @@
 }
 
 .heroParagraph {
-  font-size: 1.2em;
-  max-width: 600px;;
+  max-width: 600px;
   margin: 16px 40px 0px 0px;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  line-height: 180%;
-  color: #262B6A;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 160%;
+  color: #656D9F;
 }
 
 .heroLink {
@@ -142,6 +141,7 @@
 .heroVideo {
   width: 550px;
   margin-left: 50px;
+  box-shadow: #FFF 0px 0px 25px 10px;
 }
 
 .banner {
