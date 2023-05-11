@@ -7,7 +7,7 @@ const SectorLink = ({ sector, sectorFull }) => {
     return (
         <div className={styles.sectorLinkContainer}>
             <Link className={styles.sectorLink} href={`/sectors/${sector.toLowerCase()}`}>
-                <Image src={`/${sector}.svg`} width={60} height={60} />
+                <Image className={styles.sectorLinkIcon} src={`/${sector}.svg`} width={60} height={60} />
                 <p className={styles.sectorLinkText}>{sectorFull}</p>
             </Link>
         </div>

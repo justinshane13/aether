@@ -754,9 +754,381 @@
     display: none;
   }
 
+  .hero {
+    padding: 0px 15px;
+    margin-top: 80px; 
+  }
+
   .heroVideo {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .heroText {
+    margin-top: 50px;
+  }
+
+  .heroTitle {
+    font-size: 2.5em;
+  }
+
+  .heroParagraph {
+    font-size: .9em;
+  }
+  
+  .heroLink {
+    margin-top: 40px;
+    font-size: 1em;
+  }
+
+  .SPDPRKHighlight {
+    width: calc(100% - 30px);
+    box-sizing: border-box;
+    margin: 80px 15px 0px 15px;
+    padding: 20px 15px;
+  }
+  
+  .SPDPRKHighlightTitle {
+    font-weight: 900;
+    font-size: 2em;
+    margin: 0 0 30px 0;
+  }
+  
+  .underlineBackground {
+    background: url("/underline.png") no-repeat;
+    background-position: left 75px top 19px;
+    background-size: 180px 40px;
+    height: 60px;
+    margin-bottom: 0px;
+  }
+  
+  .SPDPRKHighlightBottomSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  
+  .SPDPRKHighlightParagraph {
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+  
+  .SPDPRKHighlightImage {
+    margin-left: 0px;
+    padding: 0px 0px;
+    display: none;
+  }
+  
+  .SPDPRKHighlightLink {
+    font-size: 1em;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: #030852;
+    margin-top: 30px;
+    text-decoration: none;
+    width: 163px;
+  }
+  
+  .arrowRight {
+    margin-left: 7px;
+    transition-duration: .2s;
+    width: 1em;
+  }
+  
+  .slideRight {
+    margin-left: 13px;
+    transition-duration: .2s;
+  }
+
+  .sectorsHighlight {
+    margin: 70px 0px 0px 0px;
+    padding: 0px 15px;
+  }
+  
+  .sectorsText {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .sectorsTitle {
+    font-size: 2em;
+    width: 100%;
+    min-width: 1px;
+    max-width: 1000px;
+  }
+  
+  .sectorsParagraph {
+    font-size: 1em;
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+  }
+  
+  .sectorsGrid {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 0px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  .sectorLink {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+
+  .sectorLinkIcon {
+    width: 45px;
+  }
+
+  .sectorLinkText {
+    margin-left: 20px;
+  }
+
+  .companyBackgroundContainer {
+    position: relative;
+  }
+  
+  .company {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 15px 0px 15px;
+    margin: 0px auto;
+    background-position: top 820px right 50px;
+    background-size: 150px 150px;
+    position: relative;
+  }
+  
+  .companyTitle {
+    width: 100%;
+    font-size: 2em;
+  }
+  
+  .companyParagraph {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 160%;
+    color: #282D6C;
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+  }
+  
+  .companyLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 19px;
+    width: 136px;
+    height: 24px;
+    margin: 60px 0px 0px 0px;
+    background: #4A78AF;;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1em;
+    line-height: 120%;
+    font-weight: 700;
+    border: 2px solid #4A78AF;;
+    transition-duration: .3s;
+    z-index: 1;
+  }
+  
+  .companyLink:hover {
+    background: #FFF;
+    color: #4A78AF;
+    transition-duration: .3s;
+  }
+  
+  .companyPhotoGrid {
+    display: grid;
+    grid-template-columns: 155px 155px;
+    grid-template-rows: 70px 70px 70px 70px 70px 70px 70px;
+    grid-gap: 15px;
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+  }
+  
+  .companyPhoto {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+  }
+  
+  .companyPhotoOverlay {
+    background: linear-gradient(#88888800, #34547a);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    border-radius: 12px;
+    margin-top: -158px;
+    opacity: .6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+  
+  .companyPhoto1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    border-radius: 12px;
+    position: relative;
+  }
+  
+  .companyPhoto2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    border-radius: 12px;
+    position: relative;
+  }
+  
+  .companyPhoto3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 12px;
+    position: relative;
+  }
+  
+  .companyPhoto4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    border-radius: 12px;
+    position: relative;
+  }
+  
+  .companyPhoto5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    border-radius: 12px;
+    position: relative;
+  }
+  
+  .companyPhotoTextContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .companyPhotoText {
+    position: absolute;
+    bottom: 10px;
+    width: 85%;
+    font-weight: 600;
+    font-size: .8em;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 2
+  }
+  
+  .dots {
+    position: absolute;
+    top: -160px;
+    right: -197px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .background7 {
+    position: absolute;
+    width: 100%;
+    height: 495px;
+    left: 0px;
+    top: 540px;
+    background: #00A578;
+    opacity: .1;
+    z-index: -1;
+  }
+
+  .upgrade {
+    margin-top: 100px;
+  }
+  
+  .upgradeText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .upgradeTitle {
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .upgradeParagraph {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 160%;
+    color: rgba(40, 45, 108, 0.7);
+    width: 360px;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+  }
+
+  .footer {
+    background: #E8F1FB;
+    padding: 80px 10px 20px 10px;
+    margin-top: 30px;
+  }
+  
+  .footerLinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: 0px auto 50px auto;
+  }
+
+  .footerLinksTitle {
+    margin-top: 40px;
+    font-size: .75em;
+  }
+  
+  .footerLink {
+    margin: 20px 0px 0px 0px;
+    font-size: .8em;
+  }
+  
+  .footerContactInfo {
+    margin-top: 20px;
+  }
+  
+  .footerAddress {
+    font-size: .8em;
+    margin: 0px 0px 6px 0px;
+  }
+  
+  .footerCopyright{
+    font-size: .7em;
+    margin-top: 100px;
   }
 }
