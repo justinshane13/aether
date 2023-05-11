@@ -1,6 +1,7 @@
 import Upgrade from '@/comps/Upgrade';
 import styles from '@/styles/SPDPRK.module.css'
 import Image from 'next/image';
+import Head from 'next/head'
 
 const SPDPRK = () => {
     return (

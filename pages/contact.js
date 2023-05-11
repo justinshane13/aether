@@ -1,4 +1,5 @@
 import styles from '@/styles/Contact.module.css'
+import Head from 'next/head'
 
 const Contact = () => {
     return (

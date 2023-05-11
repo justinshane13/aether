@@ -1,6 +1,7 @@
 import styles from '@/styles/Partners.module.css'
 import Image from 'next/image';
 import Link from 'next/link';
+import Head from 'next/head'
 
 const Partners = () => {
     return (

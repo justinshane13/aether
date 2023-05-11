@@ -1,4 +1,5 @@
 import styles from '@/styles/Software.module.css'
+import Head from 'next/head'
 
 const Software = () => {
     return (

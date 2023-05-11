@@ -1,6 +1,7 @@
 import FAQTile from "@/comps/FAQTile";
 import styles from '@/styles/FAQ.module.css'
 import Link from "next/link";
+import Head from 'next/head'
 
 const FAQ = () => {
     return (

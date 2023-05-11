@@ -2,6 +2,7 @@ import styles from '@/styles/Sectors.module.css'
 import Banner from '@/comps/Banner';
 import SectorsLinks from '@/comps/SectorsLinks';
 import Upgrade from '@/comps/Upgrade';
+import Head from 'next/head'
 
 const Sectors = () => {
     return (
