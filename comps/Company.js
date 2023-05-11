@@ -29,7 +29,7 @@ const Company = () => {
                     <div className={styles.companyPhoto3}>
                         <Image className={styles.companyPhoto} src="/los_angeles.jpg" width={100} height={100} unoptimized />
                         <div className={styles.companyPhotoTextContainer}>
-                            <p className={styles.companyPhotoText}>All hardware and software built in our factory in Los Angeles, CA</p>
+                            <p className={styles.companyPhotoText}>All hardware and software built in our Los Angeles factory</p>
                         </div>
                         <div className={styles.companyPhotoOverlay}></div>
                     </div>

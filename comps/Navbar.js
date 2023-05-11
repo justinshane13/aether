@@ -10,12 +10,10 @@ const Navbar = () => {
         setIsExpanded(!isExpanded)
     }
 
-    console.log(isExpanded)
-
     return (
         <nav className={styles.navbar}>
             <Link className={styles.navLogoLink} href="/"><Image className={styles.navLogo} src="/spdprk_logo.svg" width={142} height={41} /></Link>
-            <Image className={styles.hamburgerButton} src="/hospital.svg" width={30} height={30} onClick={handleClick} />
+            <Image className={`${styles.hamburgerButton} ${isExpanded ? styles.hamburgerButtonRotated : ''}`} src="/hamburger.svg" width={30} height={30} onClick={handleClick} />
             <div className={`${styles.navbarCollapsible} ${isExpanded ? styles.expanded : ''}`}>
                 <div className={styles.navLinksCollapsible}>
                     <Link className={styles.navLinkCollapsible} onClick={handleClick} href="/about">About</Link>

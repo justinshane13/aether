@@ -16,35 +16,35 @@
 
 .hamburgerButton {
   display: none;
+  z-index: 2;
 }
 
 .navbarCollapsible {
   background: #FFF;
   width: 100%;
-  height: 500px;
   position: absolute;
   top: -500px;
   left: 0px;
   margin: 0;
-  transition-duration: .3s;
+  transition-duration: 1s;
+  z-index: 0;
 }
 
 .navLinksCollapsible {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  height: 500px;
+  align-items: left;
+  padding: 30px 0px 0px 30px;
 }
 
 .navLinkCollapsible {
-  font-size: 1.4em;
+  font-size: 1.2em;
   text-decoration: none;
-  color: #73779F;
+  color: #545674;
   margin-left: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   align-items: center;
   transition-duration: .3s;
 }
@@ -746,11 +746,17 @@
 @media (max-width: 800px) {
   .hamburgerButton {
     display: inline;
+    transition-duration: 1s;
+  }
+
+  .hamburgerButtonRotated {
+    rotate: 90deg;
+    transition-duration: 1s;
   }
 
   .expanded {
-    top: 68px;
-    transition-duration: .3s;
+    top: 0px;
+    transition-duration: 1s;
   }
 
   .navLinks {
@@ -759,7 +765,7 @@
 
   .hero {
     padding: 0px 15px;
-    margin-top: 80px; 
+    margin-top: 30px; 
   }
 
   .heroVideo {
@@ -788,7 +794,7 @@
   .SPDPRKHighlight {
     width: calc(100% - 30px);
     box-sizing: border-box;
-    margin: 80px 15px 0px 15px;
+    margin: 120px 15px 0px 15px;
     padding: 20px 15px;
   }
   
@@ -902,7 +908,7 @@
     flex-direction: column;
     padding: 50px 15px 0px 15px;
     margin: 0px auto;
-    background-position: top 820px right 50px;
+    background-position: top 820px left -40px;
     background-size: 150px 150px;
     position: relative;
   }
@@ -1098,9 +1104,32 @@
     margin: 20px 0px 0px 0px;
   }
 
+  .custom_shape_divider_bottom_1682005640 {
+    position: relative;
+    top: 100;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    transform: rotate(180deg);
+    padding-top: 100px;
+    z-index: -1;
+  }
+  
+  .custom_shape_divider_bottom_1682005640 svg {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 43px;
+    top: -40px;
+  }
+  
+  .custom_shape_divider_bottom_1682005640 .shape_fill {
+    fill: #E8F1FB;
+  }
+
   .footer {
     background: #E8F1FB;
-    padding: 80px 10px 20px 10px;
+    padding: 0px 10px 20px 10px;
     margin-top: 30px;
   }
   
