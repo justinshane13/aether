@@ -11,9 +11,16 @@ const Hero = () => {
                 <Link className={styles.heroLink} href="/contact">Request a Demo</Link>
             </div>
             <div className={styles.heroVideoContainer}>
-                <video className={styles.heroVideo} autoPlay muted loop>
-                    <source src="/hero_mp4.mp4" type="video/mp4"></source>
-                </video>
+            <div dangerouslySetInnerHTML={{ __html: `
+                <video
+                loop
+                muted
+                autoplay
+                playsinline
+                src="/hero_mp4.mp4"
+                class="${styles.heroVideo}"
+                />,
+            ` }}></div>
             </div>
         </div>
     );
