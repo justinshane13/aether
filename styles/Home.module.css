@@ -9,7 +9,6 @@
   background: #5FCFA9;
   opacity: 0.3;
   filter: blur(300px);
-  overflow-x: hidden;
 }
 
 .background2 {
@@ -21,7 +20,6 @@
   background: #4A78AF;
   opacity: 0.5;
   filter: blur(300px);
-  overflow-x: hidden;
 }
 
 .background3 {
@@ -33,7 +31,6 @@
   background: rgba(95, 207, 169, 0.05);
   border-radius: 245.538px;
   z-index: -1;
-  overflow-x: hidden;
 }
 
 .background4 {
@@ -45,7 +42,6 @@
   background: #5FCFA9;
   opacity: 0.3;
   filter: blur(300px);
-  overflow-x: hidden;
 }
 
 .background5 {
@@ -57,7 +53,6 @@
   background: #4A78AF;
   opacity: 0.5;
   filter: blur(300px);
-  overflow-x: hidden;
 }
 
 .background6 {
@@ -67,8 +62,7 @@
   left: -64px;
   top: 1640px;
   background: rgba(95, 207, 169, 0.05);
-  border-radius: 245.538px;
-  overflow-x: hidden;
+  border-radius: 245.538px
 }
 
 .background7 {
@@ -80,7 +74,6 @@
   background: #00A578;
   opacity: .1;
   z-index: -1;
-  overflow-x: hidden;
 }
 
 .navbar {
