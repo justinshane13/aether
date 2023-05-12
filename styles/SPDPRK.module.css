@@ -1,5 +1,5 @@
 .SPDPRK {
-    padding: 0px 50px;
+    padding: 50px 50px 0px 50px;
     max-width: 1300px;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
 }
 
 .SPDPRKSection1 {
-    padding: 100px 50px 0px 50px;
+    padding: 0px 50px;
 }
 
 .SPDPRKSection1 > h1 {
@@ -226,5 +226,101 @@
     .SPDPRKSection4ImageContainer {
         width: 250px;
         height: 250px;
+    }
+}
+
+@media (max-width: 800px) {
+    .SPDPRK {
+        padding: 20px 15px 0px 15px;
+    }
+
+    .SPDPRKSection1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .SPDPRKSection1 > h1 {
+        font-size: 2em;
+    }
+
+    .underlineBackground {
+        background: url("/underline.png") no-repeat;
+        background-position: left 85px top 21px;
+        background-size: 180px;
+        height: 54px;
+    }
+
+    .SPDPRKSection1 > p {
+        font-size: 1em;
+    }
+
+    .SPDPRKSection2ExamplesContainer {
+        margin-top: 50px;
+    }
+
+    .SPDPRKSection2Example {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0px 0px 0px;
+    }
+
+    .SPDPRKSection2ExampleImage {
+        width: 100%;
+        height: 100%;
+    }
+
+    .SPDPRKSection2ExampleText {
+        margin: 0;
+        padding: 10px 10px 0px 10px;
+    }
+
+    .SPDPRKSection3Benefits {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0px;
+    }
+    
+    .SPDPRKSection3Icon {
+        width: 50px;
+    }
+
+    .SPDPRKSection3Benefits > div > p {
+        font-size: 1em;
+    }
+
+    .SPDPRKSection4 {
+        margin-top: 50px;
+    }
+
+    .SPDPRKSection4Text {
+        flex-direction: column;
+    }
+
+    .SPDPRKSection4Text > div > p {
+        font-size: 1em;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .SPDPRKSection4ImagesContainer {
+        position: relative;
+        min-height: 200px;
+    }
+
+    .SPDPRKSection4Images {
+        position: absolute;
+        right: -85px;
+        top: 30px;
+        display: flex;
+        min-height: 0px;
+    }
+
+    .SPDPRKSection4ImageContainer {
+        width: 150px;
+        height: 150px;
+        margin-left: 10px;
+        min-height: 0px;
     }
 }

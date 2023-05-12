@@ -1,5 +1,5 @@
 .software {
-    padding: 0;
+    padding: 50px 50px 0px 50px;
     max-width: 1300px;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
 }
 
 .softwareSection1 {
-    padding: 100px 50px 0px 50px;
+    padding: 0;
 }
 
 .softwareSection1 > h1 {

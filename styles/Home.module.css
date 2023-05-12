@@ -26,7 +26,7 @@
   top: -500px;
   left: 0px;
   margin: 0;
-  transition-duration: 1s;
+  transition-duration: .8s;
   z-index: 0;
 }
 
@@ -34,11 +34,11 @@
   display: flex;
   flex-direction: column;
   align-items: left;
-  padding: 30px 0px 0px 30px;
+  padding: 70px 0px 30px 70px;
 }
 
 .navLinkCollapsible {
-  font-size: 1.2em;
+  font-size: 1.4em;
   text-decoration: none;
   color: #545674;
   margin-left: 0px;
@@ -756,7 +756,7 @@
 
   .expanded {
     top: 0px;
-    transition-duration: 1s;
+    transition-duration: .8s;
   }
 
   .navLinks {

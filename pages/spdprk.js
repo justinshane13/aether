@@ -80,19 +80,19 @@ const SPDPRK = () => {
                         <h2>Highlights of using SPDPRK</h2>
                         <div className={styles.SPDPRKSection3Benefits}>
                             <div>
-                                <Image src="/install.svg" width={60} height={60} />
+                                <Image className={styles.SPDPRKSection3Icon} src="/install.svg" width={60} height={60} />
                                 <p>Fast & easy installation</p>
                             </div>
                             <div>
-                                <Image src="/reduced.svg" width={60} height={60} />
+                                <Image className={styles.SPDPRKSection3Icon} src="/reduced.svg" width={60} height={60} />
                                 <p>Reduced footprint</p>
                             </div>
                             <div>
-                                <Image src="/payments.svg" width={60} height={60} />
+                                <Image className={styles.SPDPRKSection3Icon} src="/payments.svg" width={60} height={60} />
                                 <p>Flexible payment systems</p>
                             </div>
                             <div>
-                                <Image src="/puzzle.svg" width={60} height={60} />
+                                <Image className={styles.SPDPRKSection3Icon} src="/puzzle.svg" width={60} height={60} />
                                 <p>Integrates with existing equipment</p>
                             </div>
                         </div>

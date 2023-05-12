@@ -1,5 +1,5 @@
 .partners {
-    padding: 0px 50px;
+    padding: 50px 50px 0px 50px;
     max-width: 1300px;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
 }
 
 .partnersSection1 {
-    padding: 100px 50px 0px 50px;
+    padding: 0;
 }
 
 .partnersSection1 > h1 {
@@ -165,7 +165,7 @@
 
   @media (max-width: 1250px) {
     .partnersSection1 {
-        padding: 100px 0px 0px 0px;
+        padding: 0;
     }
 
     .partnersSection2 {

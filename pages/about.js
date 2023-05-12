@@ -23,25 +23,25 @@ const About = () => {
                         <div>
                             <div className={styles.aboutSection2GridElement}>
                                 <div className={styles.aboutSection2ImageContainer}>
-                                    <Image src="/handshake.svg" width={60} height={60} />
+                                    <Image className={styles.aboutSection2Icon} src="/handshake.svg" width={60} height={60} />
                                 </div>
                                 <p>Keep your local partner, we work with anyone</p>
                             </div>
                             <div className={styles.aboutSection2GridElement}>
                                 <div className={styles.aboutSection2ImageContainer}>
-                                    <Image src="/efficient.svg" width={70} height={70} />
+                                    <Image className={styles.aboutSection2Icon} src="/efficient.svg" width={70} height={70} />
                                 </div>
                                 <p>Designed for fast and efficient ingress and egress</p>
                             </div>
                             <div className={styles.aboutSection2GridElement}>
                                 <div className={styles.aboutSection2ImageContainer}>
-                                    <Image src="/flexible.svg" width={50} height={50} />
+                                    <Image className={styles.aboutSection2IconBottom} src="/flexible.svg" width={50} height={50} />
                                 </div>
                                 <p>Set up flexible payment systems that work for you</p>
                             </div>
                             <div className={styles.aboutSection2GridElement}>
                                 <div className={styles.aboutSection2ImageContainer}>
-                                    <Image src="/phone.svg" width={60} height={60} />
+                                    <Image className={styles.aboutSection2IconBottom} src="/phone.svg" width={60} height={60} />
                                 </div>
                                 <p>Speak with a real person — our support staff are all in the USA</p>
                             </div>

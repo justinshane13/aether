@@ -10,7 +10,7 @@
 }
 
 .about {
-    padding: 100px 50px 0px 50px;
+    padding: 50px 50px 0px 50px;
     max-width: 1300px;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@
 
 .aboutSection1 > h1 {
     font-weight: 900;
-    font-size: 3.5em;
+    font-size: 4em;
     line-height: 140%;
     letter-spacing: 1px;
     color: #282D6C;
@@ -185,5 +185,90 @@
 
     .aboutSection4 {
         padding: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .about {
+        padding: 0px 15px 0px 15px;
+    }
+    
+    .aboutSection1 {
+        padding-top: 20px;
+    }
+
+    .aboutSection1 > h1 {
+        font-size: 2em;
+    }
+
+    .aboutSection1 > p {
+        font-size: 1em;
+    }
+
+    .aboutSection2 {
+        padding: 0;
+    }
+
+    .aboutSection2 > div {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 0;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .aboutSection2 > h2 {
+        font-size: 1.5em;
+        max-width: 330px;
+    }
+
+    .underlineBackground {
+        background: url("/underline.png") no-repeat;
+        background-position: left 28px top 51px;
+        background-size: 130px;
+        height: 74px;
+    }
+
+    .aboutSection2Icon {
+        width: 40px;
+    }
+
+    .aboutSection2IconBottom {
+        width: 35px;
+    }
+
+    .aboutSection2GridElement > p {
+        font-size: 1em;
+        margin-left: 0px;
+    }
+
+    .aboutSection3 {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .aboutSectionImage {
+        width: 100%;
+        height: 100%;
+    }
+
+    .aboutSection3Text > h2 {
+        font-size: 1.5em;
+    }
+
+    .aboutSection3Text > ul > li {
+        font-size: 1em;
+    }
+
+    .aboutSection4 {
+        padding: 0;
+    }
+
+    .aboutSection4 > h2 {
+        font-size: 1.5em;
+    }
+
+    .aboutSection4 > p {
+        font-size: 1em;
     }
 }
