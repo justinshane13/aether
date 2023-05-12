@@ -21,7 +21,7 @@ const SectorPage = ({ name, description, image, characteristics }) => {
                     {characteristics.map(c => {
                         return (
                             <div className={styles.sectorPageSection2Tile}>
-                                <Image src={c.image} width={100} height={100} />
+                                <Image className={styles.sectorPageIcon} src={c.image} width={100} height={100} />
                                 <p>{c.text}</p>
                             </div>
                         )

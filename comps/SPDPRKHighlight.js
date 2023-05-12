@@ -6,7 +6,7 @@ const SPDPRKHighlight = () => {
     return (
         <div className={styles.SPDPRKHighlight}>
           <div className={styles.SPDPRKHighlightText}>
-            <p className={styles.SPDPRKHighlightTitle}>The best solution for your parking garage — full stop.</p>
+            <p className={styles.SPDPRKHighlightTitle}>The best solution for your parking garage — period.</p>
             <div className={styles.SPDPRKUnderlineContainer}>
               <p className={`${styles.SPDPRKHighlightTitle} ${styles.underlineBackground}`}>This is SPDPRK.</p>
             </div>
