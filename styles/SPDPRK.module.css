@@ -42,6 +42,23 @@
     color: #282D6C;
 }
 
+.SPDPRKSectionStatistic > h2 {
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+    margin-top: 50px;
+}
+
+.SPDPRKSectionStatistic > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 160%;
+    color: #282D6C;
+}
+
 .SPDPRKSection2 {
     padding: 0px 50px;
     margin-top: 50px;
@@ -209,6 +226,11 @@
         padding-right: 0;
     }
 
+    .SPDPRKSectionStatistic {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .SPDPRKSection3 {
         padding-left: 0;
         padding-right: 0;
@@ -254,6 +276,14 @@
         font-size: 1em;
     }
 
+    .SPDPRKSectionStatistic > h2 {
+        font-size: 2em;
+    }
+
+    .SPDPRKSectionStatistic > p {
+        font-size: 1em;
+    }
+
     .SPDPRKSection2ExamplesContainer {
         margin-top: 50px;
     }
@@ -268,12 +298,17 @@
 
     .SPDPRKSection2ExampleImage {
         width: 100%;
-        height: 100%;
+        height: 200px;
+        object-fit: cover;
     }
 
     .SPDPRKSection2ExampleText {
         margin: 0;
         padding: 10px 10px 0px 10px;
+    }
+
+    .SPDPRKSection2ExampleText > p {
+        font-size: 1em;
     }
 
     .SPDPRKSection3Benefits {

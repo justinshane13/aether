@@ -21,6 +21,10 @@ const SPDPRK = () => {
                         <p>SPDPRK systems are designed to be Zero Obsolescent, requiring minimal maintenance and built on a secure and stable technology that is resistant to breakdowns. We utilize a cloud-based monitoring system along with an optional on site server to manage your location with an ethernet connection and power. </p>
                         <p>We designed the system to be a solution to the variety of challenges parking operations face. By adding SPDPRK to your parking asset, you can drastically reduce the footprint of your equipment. Below are some of the ways it can replace or enhance legacy equipment.</p>
                     </div>
+                    <div className={styles.SPDPRKSectionStatistic}>
+                        <h2>User Adoption Rates</h2>
+                        <p>We ran the numbers, and customers love the convenience of SPDPRK. Over 25% of them scanned the QR code with their phone and paid online before the parking owners marketed the new system. That means despite no signage or prompting, they are taking the traditional Bar Code ticket and seeing the QR code added to it, scanning with their phone, and paying the bill with their phone without any instruction.</p>
+                    </div>
                     <div className={styles.SPDPRKSection2}>
                         <div className={styles.SPDPRKSection2ExamplesContainer}>
                             <h2>Legacy to SPDPRK: Reduced Footprint</h2>
@@ -49,7 +53,7 @@ const SPDPRK = () => {
                                 <Image className={styles.SPDPRKSection2ExampleImage} src="/hardware.jpeg" width={300} height={300} />
                                 <div className={styles.SPDPRKSection2ExampleText}>
                                     <h3>Ticket Acceptor</h3>
-                                    <p>Parking ticket acceptors are an important component of parking payment systems and its core functions can be replicated on the SPDPRK system. Commonly used in parking lots and garages to collect parking fees and manage the flow of vehicles.Once the fee has been calculated, the driver can pay using various payment methods, credit/debit card, or mobile payment. If the driver has lost their ticket or exceeded the time limit of their parking session, the acceptor may charge a higher fee through the SPDPRK system.</p>
+                                    <p>Parking ticket acceptors are an important component of parking payment systems and its core functions can be replicated on the SPDPRK system. Once the fee has been calculated, the driver can pay using various payment methods, credit/debit card, or mobile payment. If the driver loses their ticket or exceeds the time limit of their parking session, the acceptor may charge a higher fee through the SPDPRK system.</p>
                                 </div>
                             </div>
                             <div className={styles.SPDPRKSection2Example}>
