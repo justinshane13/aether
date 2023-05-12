@@ -123,7 +123,7 @@
     line-height: 140%;
     text-align: center;
     letter-spacing: 1px;
-    color: #1D293F;
+    color: #282D6C;
     margin: 0;
 }
 
@@ -155,15 +155,15 @@
     border: 2px solid #4A78AF;;
     transition-duration: .5s;
     z-index: 1;
-  }
+}
   
-  .partnersContactLink:hover {
+.partnersContactLink:hover {
     background: #FFF;
     color: #4A78AF;;
     transition-duration: .5s;
-  }
+}
 
-  @media (max-width: 1250px) {
+@media (max-width: 1250px) {
     .partnersSection1 {
         padding: 0;
     }
@@ -175,4 +175,58 @@
     .partnersSection3 {
         padding: 0;
     }
-  }
+}
+
+@media (max-width: 800px) {
+    .partners {
+        padding: 20px 15px 0px 15px;
+    }
+
+    .partnersSection1 > h1 {
+        font-size: 2em;
+    }
+
+    .partnersSection1 > p {
+        font-size: 1em;
+    }
+
+    .partnersSection2 {
+        grid-template-columns: 1fr;
+    }
+
+    .partnersSection2 > div > h2 {
+        font-size: 1.5em;
+    }
+
+    .partnersSection2 > div > p {
+        font-size: 1em;
+    }
+
+    .partnersSection3 {
+        flex-direction: column;
+    }
+
+    .partnersSection3 > div {
+        margin: 15px 0px 0px 0px;
+    }
+
+    .partnersSection3Quote {
+        font-size: 1em;
+    }
+
+    .partnersSection3Customer {
+        font-size: .8em;
+    }
+
+    .partnersSection3Company {
+        font-size: .8em;
+    }
+
+    .partnersSection4 > h2 {
+        font-size: 1.8em;
+    }
+    
+    .partnersSection4 > p {
+        font-size: 1em;
+    }
+}

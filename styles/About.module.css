@@ -1,8 +1,8 @@
 .background7 {
     position: absolute;
-    width: calc(100% + 500px);
+    width: calc(100% + 100px);
     height: calc(100% + 100px);
-    left: -250px;
+    left: -50px;
     top: -50px;
     background: #00A578;
     opacity: .1;
@@ -189,6 +189,11 @@
 }
 
 @media (max-width: 800px) {
+    .background7 {
+        width: calc(100% + 30px);
+        left: -15px;
+    }
+    
     .about {
         padding: 0px 15px 0px 15px;
     }

@@ -15,7 +15,7 @@ const FAQTile = ({ question, answer}) => {
             sx={{
                 filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))',
                 borderRadius: '12px!important',
-                padding: '10px',
+                padding: '5px',
                 marginTop: '15px',
                 marginBottom: '15px',
             }}

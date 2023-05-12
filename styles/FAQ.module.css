@@ -67,6 +67,19 @@
     .faqSection1 {
         padding: 0;
     }
+}
 
-    
+@media (max-width: 800px) {
+    .faq {
+        padding: 20px 15px 0px 15px;
+    }
+
+    .faqSection1 > h1 {
+        font-size: 2em;
+        margin-bottom: 40px;
+    }
+
+    .faqSection2 {
+        margin-top: 100px;
+    }
 }

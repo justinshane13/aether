@@ -21,13 +21,13 @@ const Partners = () => {
                     <div className={styles.partnersSection2Container}>
                         <div className={styles.partnersSection2}>
                             <div>
-                                <Image className={styles.partnersFlag} src="/flag.svg" width={80} height={80} />
+                                <Image className={`${styles.partnersFlag} ${styles.partnersIcon}`} src="/flag.svg" width={80} height={80} />
                                 <h2>We are based in the USA</h2>
                                 <p>You can reach us right away — no call centers. We understand the value of getting real answers, fast. No matter the issue you need addressed, we will be available to help you.</p>
                                 <p>All of our team, from hardware and manufacturing to software and support, are based in the continental United States.</p>
                             </div>
                             <div>
-                                <Image src="/clipboard.svg" width={80} height={80} />
+                                <Image className={styles.partnersIcon} src="/clipboard.svg" width={80} height={80} />
                                 <h2>Our solutions are comprehensive</h2>
                                 <p>In any parking operation, there is a symphony of moving parts to make it a success. When creating a bespoke solution for each customer, we account for every variable.</p>
                                 <p>Instead of going to dozens of providers to mix and match hardware and software, we provide a total solution that works out of the box.</p>

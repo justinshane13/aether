@@ -147,29 +147,6 @@
   -moz-backface-visibility: hidden;
 }
 
-.banner {
-  background-color: #1F1C1D;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  border-radius: 12px;
-  padding: 50px;
-  box-sizing: border-box;
-}
-
-.bannerText {
-  width: 1000px;
-  text-align: center;
-  font-weight: 700;
-  font-size: 3em;
-  line-height: 140%;
-  color: #F8F8F8;
-  background-image: radial-gradient(circle, #70f4c7 20%, #68a9f6 100%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .SPDPRKHighlight {
   display: flex;
   flex-direction: column;
@@ -963,7 +940,7 @@
     align-self: flex-end;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0px;
+    margin-top: 70px;
     margin-bottom: 0px;
     position: relative;
   }
