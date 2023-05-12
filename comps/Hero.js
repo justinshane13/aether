@@ -20,6 +20,7 @@ const Hero = () => {
                 class="${styles.heroVideo}"
                 />,
             ` }}></div>
+            <div className={styles.background2}></div>
         </div>
     );
 }

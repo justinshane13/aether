@@ -36,9 +36,10 @@
     font-weight: 400;
     font-size: 1.2em;
     line-height: 160%;
-    color: #656D9F;
+    color: #282D6C;
     margin-top: 0px;
     margin-bottom: 30px;
+    margin-right: 30px;
 }
 
 .sectorPageSection1Image {
@@ -75,10 +76,61 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #282D6C
+}
+
+@media (max-width: 1250px) {
+    .sectorPage {
+        padding: 0px 50px;
+    }
+
+    .sectorPageSection1 {
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .sectorPageSection1 > div {
+        flex-direction: column-reverse;
+    }
+
+    .sectorPageSection1 > div > div {
+        width: 100%;
+        margin-top: 50px;
+    }
 }
 
 @media (max-width: 800px) {
-    .sectors {
+    .sectorPage {
+        padding: 20px 15px 0px 15px;
+    }
+
+    .sectorPageSection1 {
+        margin: 0;
+    }
+
+    .sectorPageSection1 > h1 {
+        font-size: 2em;
+    }
+
+    .sectorPageSection1 > div {
+        margin-top: 30px;
+    }
+
+    .sectorPageSection1Image {
+        width: 330px;
+        height: 330px;
+    }
+
+    .sectorPageSection1 > div > div {
+        margin-top: 30px;
+    }
+
+    .sectorPageSection1 > div > div > p {
+        font-size: 1em;
+    }
+
+    .sectorPageSection2 {
+        margin-top: 20px;
         padding: 0;
     }
 }

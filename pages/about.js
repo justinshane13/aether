@@ -17,6 +17,8 @@ const About = () => {
                         <h1>How are we different?</h1>
                         <p>We were one of the first companies to introduce a computer into the parking industry. Despite skepticism from others in the industry, we were committed to creating the best possible parking solution on the market. We know that innovation and creativity are not only relevant in our industry, but necessary.</p>
                         <p>A favorite part of our work is tackling the complex challenges our customers face. We are only satisfied when we find a solution that works perfect for you. Work with our local partner or choose one of your own that you already enjoy — we can work with anyone. Here are some reasons you’ll be happy you chose our products.</p>
+                        <div className={styles.background1}></div>
+                        <div className={styles.background2}></div>
                     </div>
                     <div className={styles.aboutSection2}>
                         <h2 className={styles.underlineBackground}>We are focused on creating the highest quality user experience</h2>

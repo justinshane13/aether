@@ -189,6 +189,30 @@
 }
 
 @media (max-width: 800px) {
+    .background1 {
+        width: 150px;
+        height: 150px;
+        left: 0px;
+        top: 150px;
+        background: #5FCFA9;
+        filter: blur(150px);
+        opacity: .7;
+        position: absolute;
+        z-index: -0;
+    }
+
+    .background2 {
+        width: 150px;
+        height: 150px;
+        right: 0px;
+        top: 550px;
+        background: #4A78AF;
+        filter: blur(150px);
+        opacity: 0.5;
+        position: absolute;
+        z-index: -0;
+      }
+
     .background7 {
         width: calc(100% + 30px);
         left: -15px;
@@ -212,6 +236,7 @@
 
     .aboutSection2 {
         padding: 0;
+        margin-top: 20px;
     }
 
     .aboutSection2 > div {
@@ -219,7 +244,7 @@
         flex-direction: column;
         grid-gap: 0;
         width: 100%;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .aboutSection2 > h2 {
@@ -240,6 +265,11 @@
 
     .aboutSection2IconBottom {
         width: 35px;
+    }
+
+    .aboutSection2GridElement {
+        margin: 0px;
+        padding: 0;
     }
 
     .aboutSection2GridElement > p {
