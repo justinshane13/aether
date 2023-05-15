@@ -11,19 +11,19 @@ const Hospital = () => {
             image="/hospital_image.jpg"
             characteristics={[
                 {
-                    image: "/hand_crafted.jpg",
+                    image: "/government.svg",
                     text: "Lorem Ipsum"
                 },
                 {
-                    image: "/hand_crafted.jpg",
+                    image: "/flag.svg",
                     text: "Lorem Ipsum"
                 },
                 {
-                    image: "/hand_crafted.jpg",
+                    image: "/airport.svg",
                     text: "Lorem Ipsum"
                 },
                 {
-                    image: "/hand_crafted.jpg",
+                    image: "/clipboard.svg",
                     text: "Lorem Ipsum"
                 }
             ]}
