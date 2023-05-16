@@ -29,5 +29,5 @@ const Sports = () => {
         />
     );
 }
- 
+
 export default Sports

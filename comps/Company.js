@@ -53,7 +53,6 @@ const Company = () => {
                 <div className={styles.background5}></div>
                 <div className={styles.background6}></div>
             </div>
-            <div className={styles.background7}></div>
         </div>
     );
 }

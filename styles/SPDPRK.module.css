@@ -42,6 +42,51 @@
     color: #282D6C;
 }
 
+.SPDPRKSection1 > div {
+    position: relative;
+    margin-top: 100px;
+}
+
+.SPDPRKSection1Blue > h2 {
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.SPDPRKSection1Blue > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 160%;
+    color: #282D6C;
+    z-index: 1;
+}
+
+.background1 {
+    position: absolute;
+    width: calc(100vw + 400px);
+    height: calc(100% + 70px);
+    left: -400px;
+    top: -35px;
+    background: #4A78AF;
+    opacity: .2;
+    z-index: 0;
+}
+
+.greenHalfCircle {
+    position: absolute;
+    top: -85px;
+    right: -100px;
+}
+
+.SPDPRKSectionStatistic {
+    padding: 0px 50px;
+}
+
 .SPDPRKSectionStatistic > h2 {
     font-weight: 900;
     font-size: 2em;
@@ -226,6 +271,12 @@
         padding-right: 0;
     }
 
+    .greenHalfCircle {
+        position: absolute;
+        top: -85px;
+        right: -50px;
+    }
+
     .SPDPRKSectionStatistic {
         padding-left: 0;
         padding-right: 0;
@@ -272,8 +323,35 @@
         height: 54px;
     }
 
+    .SPDPRKSection1 > div > h2 {
+        font-size: 2em;
+    }
+
+    .SPDPRKSection1 > div > p {
+        font-size: 1em;
+    }
+
     .SPDPRKSection1 > p {
         font-size: 1em;
+    }
+
+    .SPDPRKSection1 > div {
+        position: relative;
+        margin-top: 100px;
+    }
+    
+    .SPDPRKSection1Blue > h2 {
+        font-size: 2em;
+    }
+    
+    .SPDPRKSection1Blue > p {
+        font-size: 1em;
+    }
+
+    .greenHalfCircle {
+        position: absolute;
+        bottom: 85px;
+        right: -15px;
     }
 
     .SPDPRKSectionStatistic > h2 {

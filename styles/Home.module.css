@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
-
-.background2 {
-  width: 750px;
-  height: 750px;
-  left: -300px;
-  top: 50px;
-  background: #4A78AF;
-  filter: blur(750px);
-  opacity: 0.1;
+.background3 {
   position: absolute;
-  z-index: 1;
+  width: 491.08px;
+  height: 491.08px;
+  left: -200px;
+  top: -50px;
+  background: rgba(95, 207, 169, 0.05);
+  border-radius: 245.538px;
+  z-index: 0;
 }
 
 .navbar {
@@ -731,18 +729,6 @@
 }
 
 @media (max-width: 800px) {
-  .background2 {
-    width: 150px;
-    height: 150px;
-    right: 0px;
-    top: 550px;
-    background: #4A78AF;
-    filter: blur(150px);
-    opacity: 0.5;
-    position: absolute;
-    z-index: 1;
-  }
-  
   .hamburgerButton {
     display: inline;
     transition-duration: 1s;
@@ -771,6 +757,7 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
   }
 
   .heroText {
@@ -956,8 +943,8 @@
   
   .companyPhotoGrid {
     display: grid;
-    grid-template-columns: 155px 155px;
-    grid-template-rows: 70px 70px 70px 70px 70px 70px 70px;
+    grid-template-columns: 225px 225px;
+    grid-template-rows: 105px 105px 105px 105px 105px 105px;
     grid-gap: 15px;
     align-self: flex-end;
     margin-left: auto;
@@ -981,7 +968,7 @@
     z-index: 1;
     position: absolute;
     border-radius: 12px;
-    margin-top: -158px;
+    margin-top: -228px;
     opacity: .6;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -1045,7 +1032,7 @@
     bottom: 10px;
     width: 85%;
     font-weight: 600;
-    font-size: .8em;
+    font-size: 1em;
     line-height: 150%;
     text-align: center;
     color: #FFFFFF;
@@ -1161,5 +1148,51 @@
   .footerCopyright{
     font-size: .7em;
     margin-top: 100px;
+  }
+}
+
+@media (max-width: 500px) {
+  .heroVideo {
+    margin-top: 0px;
+  }
+
+  .companyPhotoGrid {
+    display: grid;
+    grid-template-columns: 155px 155px;
+    grid-template-rows: 70px 70px 70px 70px 70px 70px 70px;
+    grid-gap: 15px;
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    position: relative;
+  }
+
+  .companyPhotoOverlay {
+    background: linear-gradient(#88888800, #34547a);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    border-radius: 12px;
+    margin-top: -158px;
+    opacity: .6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+
+  .companyPhotoText {
+    position: absolute;
+    bottom: 10px;
+    width: 85%;
+    font-weight: 600;
+    font-size: .8em;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 2
   }
 }

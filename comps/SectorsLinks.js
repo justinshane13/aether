@@ -7,6 +7,7 @@ const SectorsLinks = () => {
             <div className={styles.sectorsText}>
                 <p className={styles.sectorsTitle}>Bespoke solutions for every sector</p>
                 <p className={styles.sectorsParagraph}>Each organization brings something different to the table. We design our equipment and service to meet the specific needs of every sector that needs parking equipment.</p>
+                <div className={styles.background3}></div>
             </div>
             <div className={styles.sectorsGrid}>
                 <SectorLink sector="airport" sectorFull="Airport & Off-Airport" />
