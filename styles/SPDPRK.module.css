@@ -25,15 +25,6 @@
     height: 105px;
 }
 
-.SPDPRKSection1 > h2 {
-    font-weight: 900;
-    font-size: 2em;
-    line-height: 140%;
-    letter-spacing: 1px;
-    color: #282D6C;
-    margin-top: 50px;
-}
-
 .SPDPRKSection1 > p {
     font-family: 'Montserrat';
     font-weight: 400;
@@ -44,7 +35,8 @@
 
 .SPDPRKSection1 > div {
     position: relative;
-    margin-top: 100px;
+    margin-top: 70px;
+    padding: 30px 0px;
 }
 
 .SPDPRKSection1Blue > h2 {
@@ -53,7 +45,7 @@
     line-height: 140%;
     letter-spacing: 1px;
     color: #282D6C;
-    margin-top: 50px;
+    margin-top: 0px;
     z-index: 1;
 }
 
@@ -83,48 +75,19 @@
     right: -100px;
 }
 
-.SPDPRKSectionStatistic {
-    padding: 0px 50px;
-}
-
-.SPDPRKSectionStatistic > h2 {
-    font-weight: 900;
-    font-size: 2em;
-    line-height: 140%;
-    letter-spacing: 1px;
-    color: #282D6C;
-    margin-top: 50px;
-}
-
-.SPDPRKSectionStatistic > p {
-    font-family: 'Montserrat';
-    font-weight: 400;
-    font-size: 1.3em;
-    line-height: 160%;
-    color: #282D6C;
-}
-
 .SPDPRKSection2 {
     padding: 0px 50px;
     margin-top: 50px;
     position: relative;
 }
 
-.background7 {
-    position: absolute;
-    width: calc(100vw + 400px);
-    height: calc(100% + 70px);
-    left: -400px;
-    top: 0px;
-    background: #00A578;
-    opacity: .1;
-}
-
 .SPDPRKSection2ExamplesContainer {
-    margin-top: 100px;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.SPDPRKSection2ExamplesContainer > h2 {
+.SPDPRKSection2 > h2 {
     font-weight: 900;
     font-size: 2em;
     line-height: 140%;
@@ -132,28 +95,46 @@
     color: #282D6C;
 }
 
+.SPDPRKSection2 > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 160%;
+    color: #282D6C;
+    z-index: 1;
+}
+
 .SPDPRKSection2Example {
+    margin: 0px 0px 0px 0px;
+    padding: 40px;
+}
+
+.SPDPRKSection2ExampleHeader {
     display: flex;
-    margin: 60px 0px 0px 0px;
+    align-items: center;
 }
 
-.SPDPRKSection2ExampleImage {
-    border-radius: 12px;
-}
-
-.SPDPRKSection2ExampleText {
+.SPDPRKSection2ExampleImageContainer {
+    width: 40px;
+    height: 60px;
     display: flex;
-    flex-direction: column;
-    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    border-left: 5px solid #5FCFA9;
 }
 
-.SPDPRKSection2ExampleText > h3 {
+.SPDPRKSection2ExampleHeader > h3 {
     font-weight: 900;
     font-size: 1.4em;
     line-height: 140%;
     letter-spacing: 1px;
     color: #282D6C;
     margin: 0;
+    margin-left: 50px;
+}
+
+.SPDPRKSection2ExampleText {
+    margin-left: 0px;
 }
 
 .SPDPRKSection2ExampleText > p {
@@ -162,12 +143,11 @@
     font-size: 1.1em;
     line-height: 160%;
     color: #282D6C;
-    margin: 10px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
 }
 
-.SPDPRKSection2Image {
-    border-radius: 12px;
-    margin-left: 60px;
+.SPDPRKSection2ExampleImage {
+    margin-left: 50px;
 }
 
 .SPDPRKSection3 {
@@ -277,11 +257,6 @@
         right: -50px;
     }
 
-    .SPDPRKSectionStatistic {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
     .SPDPRKSection3 {
         padding-left: 0;
         padding-right: 0;
@@ -354,35 +329,18 @@
         right: -15px;
     }
 
-    .SPDPRKSectionStatistic > h2 {
-        font-size: 2em;
-    }
-
-    .SPDPRKSectionStatistic > p {
-        font-size: 1em;
-    }
-
     .SPDPRKSection2ExamplesContainer {
         margin-top: 50px;
+        display: inline;
     }
 
     .SPDPRKSection2Example {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 50px 0px 0px 0px;
-    }
-
-    .SPDPRKSection2ExampleImage {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
+        padding: 30px 0px;
     }
 
     .SPDPRKSection2ExampleText {
         margin: 0;
-        padding: 10px 10px 0px 10px;
+        padding: 0;
     }
 
     .SPDPRKSection2ExampleText > p {

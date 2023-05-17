@@ -15,7 +15,7 @@ const SPDPRK = () => {
                 <div className={styles.SPDPRK}>
                     <div className={styles.SPDPRKSection1}>
                         <h1 className={styles.underlineBackground}>This is SPDPRK</h1>
-                        <p>SPDPRK is the simplest, most effective way for parking customers to use your garage. We’ve combined first-class hardware with innovative software to create an excellent user experience. Your customers can scan their ticket and pay for parking using their phone for every step.</p>
+                        <p>Your customers can scan their ticket and pay for parking using their phone for every step.</p>
                         <p>Fast, contactless payments have never been simpler because customers connect their ticket to their phone payment method. Quickly allow paying customers to enter and exit your parking facility easily through a QR code ticket dispenser and QR reader. Deep-dive into facility analytics by identifying low and peak volume periods on a hourly, daily, weekly, or monthly basis.</p>
                         <div>
                             <div className={styles.SPDPRKSection1Blue}>
@@ -27,64 +27,88 @@ const SPDPRK = () => {
                             <Image className={styles.greenHalfCircle} src="/green_half_circle.svg" width={50} height={100} />
                         </div>
                     </div>
-                    <div className={styles.SPDPRKSectionStatistic}>
-                        <h2>User Adoption Rates</h2>
-                        <p>We ran the numbers, and customers love the convenience of SPDPRK. Over 25% of them scanned the QR code with their phone and paid online before the parking owners marketed the new system. That means despite no signage or prompting, they are taking the traditional Bar Code ticket and seeing the QR code added to it, scanning with their phone, and paying the bill with their phone without any instruction.</p>
-                    </div>
                     <div className={styles.SPDPRKSection2}>
+                        <h2>Legacy to SPDPRK</h2>
+                        <p>After 45 years in the parking industry, we've seen — and built — just about every type of parking equipment you can imagine. While we can still build them, we've designed SPDPRK to replace or enhance all aspects of a parking operation.</p>
                         <div className={styles.SPDPRKSection2ExamplesContainer}>
-                            <h2>Legacy to SPDPRK: Reduced Footprint</h2>
                             <div className={styles.SPDPRKSection2Example}>
-                                <Image className={styles.SPDPRKSection2ExampleImage} src="/hardware.jpeg" width={300} height={300} />
-                                <div className={styles.SPDPRKSection2ExampleText}>
+                                <div className={styles.SPDPRKSection2ExampleHeader}>
+                                    <div className={styles.SPDPRKSection2ExampleImageContainer}>
+                                        <Image className={styles.SPDPRKSection2ExampleImage} src="/pay_on_foot.svg" width={80} height={80} />
+                                    </div>
                                     <h3>Pay On Foot System</h3>
+                                </div>
+                                <div className={styles.SPDPRKSection2ExampleText}>
                                     <p>With a pay on foot system, drivers can park their vehicles for a specific duration of time, and then pay the fee before leaving the parking lot. With SPDPRK that is accomplished on your phone.</p>
                                 </div>
                             </div>
                             <div className={styles.SPDPRKSection2Example}>
-                                <Image className={styles.SPDPRKSection2ExampleImage} src="/hardware.jpeg" width={300} height={300} />
-                                <div className={styles.SPDPRKSection2ExampleText}>
+                                <div className={styles.SPDPRKSection2ExampleHeader}>
+                                    <div className={styles.SPDPRKSection2ExampleImageContainer}>
+                                        <Image className={styles.SPDPRKSection2ExampleImage} src="/parking_ticket.svg" width={60} height={60} />
+                                    </div>
                                     <h3>Ticket</h3>
-                                    <p>Reduced Footprint of a bespoke SPDPRK system can be designed to eliminate tickets and of course Ticket Dispensers completely, utilizing alternative forms of transient credentials for entrance and exit of a parking facility.</p>
+                                </div>
+                                <div className={styles.SPDPRKSection2ExampleText}>
+                                    <p>A bespoke SPDPRK system can be designed to eliminate tickets and of course Ticket Dispensers completely, utilizing alternative forms of credentials for entrance and exit.</p>
                                 </div>
                             </div>
                             <div className={styles.SPDPRKSection2Example}>
-                                <Image className={styles.SPDPRKSection2ExampleImage} src="/hardware.jpeg" width={300} height={300} />
-                                <div className={styles.SPDPRKSection2ExampleText}>
+                            <div className={styles.SPDPRKSection2ExampleHeader}>
+                                    <div className={styles.SPDPRKSection2ExampleImageContainer}>
+                                        <Image className={styles.SPDPRKSection2ExampleImage} src="/ticket_dispenser.svg" width={70} height={70} />
+                                    </div>
                                     <h3>Ticket Dispenser</h3>
-                                    <p>Even in the SPDPRK system, despite having alternative ticketless options to offer you, a faster throughput is often achieved by using the SPDPRK Ticket Dispenser. A SPDPRK Ticket Dispenser comes standard with a Customer Information Screen, a VOip intercom, a Pushbutton for tickets, Ticket Printer and is an all stainless steel construction for longevity and strength. </p>
+                                </div>
+                                <div className={styles.SPDPRKSection2ExampleText}>
+                                    <p>If you require a ticket dispenser, a SPDPRK system will make it faster. It comes standard with a Customer Information Screen, VoIP intercom, push button for tickets, Ticket Printer and is an all stainless steel construction for longevity and strength.</p>
                                 </div>
                             </div>
                             <div className={styles.SPDPRKSection2Example}>
-                                <Image className={styles.SPDPRKSection2ExampleImage} src="/hardware.jpeg" width={300} height={300} />
-                                <div className={styles.SPDPRKSection2ExampleText}>
+                                <div className={styles.SPDPRKSection2ExampleHeader}>
+                                    <div className={styles.SPDPRKSection2ExampleImageContainer}>
+                                        <Image className={styles.SPDPRKSection2ExampleImage} src="/ticket_scanner.svg" width={60} height={60} />
+                                    </div>
                                     <h3>Ticket Acceptor</h3>
-                                    <p>Parking ticket acceptors are an important component of parking payment systems and its core functions can be replicated on the SPDPRK system. Once the fee has been calculated, the driver can pay using various payment methods, credit/debit card, or mobile payment. If the driver loses their ticket or exceeds the time limit of their parking session, the acceptor may charge a higher fee through the SPDPRK system.</p>
+                                </div>
+                                <div className={styles.SPDPRKSection2ExampleText}>
+                                    <p>With SPDPRK, once fee has been calculated the driver can pay using a credit or debit card, or mobile payment. If the driver loses their ticket or exceeds the parking time limit, the acceptor may charge a higher fee through the SPDPRK system.</p>
                                 </div>
                             </div>
                             <div className={styles.SPDPRKSection2Example}>
-                                <Image className={styles.SPDPRKSection2ExampleImage} src="/hardware.jpeg" width={300} height={300} />
-                                <div className={styles.SPDPRKSection2ExampleText}>
+                            <div className={styles.SPDPRKSection2ExampleHeader}>
+                                    <div className={styles.SPDPRKSection2ExampleImageContainer}>
+                                        <Image className={styles.SPDPRKSection2ExampleImage} src="/validation.svg" width={60} height={60} />
+                                    </div>
                                     <h3>Validator</h3>
-                                    <p>SPDPRK makes it all so easy, validations are done on the customer phone or sent by the system automatically to the recipient for entrance or exit by an authorized user. Efficient design with one or multiple solutions to fit your needs.</p>
+                                </div>
+                                <div className={styles.SPDPRKSection2ExampleText}>
+                                    <p>SPDPRK simplifies validations. They are done on the customer phone or sent by the system automatically to the recipient for entrance or exit. Efficient design with the exact solution to fit your needs.</p>
                                 </div>
                             </div>
                             <div className={styles.SPDPRKSection2Example}>
-                                <Image className={styles.SPDPRKSection2ExampleImage} src="/hardware.jpeg" width={300} height={300} />
-                                <div className={styles.SPDPRKSection2ExampleText}>
+                                <div className={styles.SPDPRKSection2ExampleHeader}>
+                                    <div className={styles.SPDPRKSection2ExampleImageContainer}>
+                                        <Image className={styles.SPDPRKSection2ExampleImage} src="/card_scanner.svg" width={60} height={60} />
+                                    </div>
                                     <h3>Card Reader</h3>
-                                    <p>SPDPRK can eliminate the need for contractor credentials to License plate recognition, biometrics or a customers own phone via bluetooth or automated QR code sent to them.</p>
+                                </div>
+                                <div className={styles.SPDPRKSection2ExampleText}>
+                                    <p>SPDPRK can eliminate the need for contractor credentials to License Plate Recognition, biometrics, a customer's own phone via bluetooth, or an automated QR code sent to them.</p>
                                 </div>
                             </div>
                             <div className={styles.SPDPRKSection2Example}>
-                                <Image className={styles.SPDPRKSection2ExampleImage} src="/hardware.jpeg" width={300} height={300} />
-                                <div className={styles.SPDPRKSection2ExampleText}>
+                            <div className={styles.SPDPRKSection2ExampleHeader}>
+                                    <div className={styles.SPDPRKSection2ExampleImageContainer}>
+                                        <Image className={styles.SPDPRKSection2ExampleImage} src="/cashier.svg" width={60} height={60} />
+                                    </div>
                                     <h3>Cashier Terminal</h3>
+                                </div>
+                                <div className={styles.SPDPRKSection2ExampleText}>
                                     <p>SPDPRK can reduce the equipment footprint or human resource allocation of a cashier to those that still see the value in the personal touch of having people dealing with people in the parking process.</p>
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.background7}></div>
                     </div>
                     <div className={styles.SPDPRKSection3}>
                         <h2>Highlights of using SPDPRK</h2>

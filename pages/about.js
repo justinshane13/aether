@@ -21,7 +21,7 @@ const About = () => {
                         <div className={styles.background2}></div>
                     </div>
                     <div className={styles.aboutSection2}>
-                        <h2 className={styles.underlineBackground}>We are focused on creating the highest quality user experience</h2>
+                        <h2>We are focused on creating the highest quality user experience</h2>
                         <div>
                             <div className={styles.aboutSection2GridElement}>
                                 <div className={styles.aboutSection2ImageContainer}>
