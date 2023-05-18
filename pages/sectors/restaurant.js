@@ -5,26 +5,27 @@ const Restaurant = () => {
         <SectorPage
             name="Restaurants, Bars, Nightclubs, Casinos"
             description={[
-                "Leisure destinations rely on providing convenience and a welcoming experience to their guests, making parking solutions a crucial element. Offering quick entry and exit from parking facilities adds an extra level of convenience for guests. To achieve this, a dependable and adaptable parking management system is necessary, one that can be fully customized to meet the specific needs and requirements of the destination.",
-                "With over 45 years of experience in flexible parking management solutions, we can offer tailored advice and customized solutions to meet the unique needs of any leisure destination."
+                "Parking solutions play a vital role in ensuring convenience and a positive experience for guests at leisure destinations. Swift and seamless entry and exit from parking facilities are essential for enhancing convenience. Therefore, it is crucial to implement a reliable and adaptable parking management system that can be customized to meet the specific requirements of the destination.",
+                "With our extensive experience of over 45 years in providing flexible parking management solutions, we are well-equipped to offer personalized guidance and tailored solutions for any leisure destination. We understand the unique needs of such locations and can provide expert advice on implementing a parking management system that optimally caters to those needs. Our goal is to enhance the overall guest experience by providing a parking solution that is dependable, efficient, and perfectly aligned with the specific requirements of the destination.",
+                "As an example, SPDPRK has worked specifically with the back house of BALLYS Casino players cards. We can use the casino parameters for rewards of points to allow free or discounted parking."
             ]}
             image="/restaurant_image.jpg"
             characteristics={[
                 {
                     image: "/government.svg",
-                    text: "Lorem Ipsum"
+                    text: "Validation Systems"
                 },
                 {
                     image: "/flag.svg",
-                    text: "Lorem Ipsum"
+                    text: "WEBVALS"
                 },
                 {
                     image: "/airport.svg",
-                    text: "Lorem Ipsum"
+                    text: "Prepay Options"
                 },
                 {
                     image: "/clipboard.svg",
-                    text: "Lorem Ipsum"
+                    text: "Valet Systems"
                 }
             ]}
         />

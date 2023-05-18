@@ -5,26 +5,26 @@ const Hospital = () => {
         <SectorPage
             name="Hospitals"
             description={[
-                "To ensure a positive experience for all users including patients, visitors, staff, and suppliers, hospital parking facilities should prioritize comfort, ease of use, and hassle-free parking management.",
-                "Hospital parking presents unique challenges due to the high traffic intensity during peak times and multiple user groups. Visitors should be able to park their vehicles without worrying about parking issues. SPDPRK with its extensive experience in hospital parking solutions, can provide a sensitive and comprehensive approach to address these complex needs and concerns."
+                "Hospital parking presents unique challenges due to the high traffic intensity during peak times and multiple user groups. Visitors should be able to park their vehicles without worrying about parking issues. SPDPRK with its extensive experience in hospital parking solutions, can provide a sensitive and comprehensive approach to address these complex needs and concerns.",
+                "Healthcare campuses have transformed into an array of services catering to visitors' needs. At SPDPRK, we understand the importance of creating a seamless experience for patients, employees, tenants, and retail visitors. That's why we offer innovative solutions such as web-based validations, wayfinding , and automated valet services. By embracing these options, we alleviate the stress and simplify the parking process, allowing individuals to focus on what truly matters—their well-being and the tasks at hand."
             ]}
             image="/hospital_image.jpg"
             characteristics={[
                 {
                     image: "/government.svg",
-                    text: "Lorem Ipsum"
+                    text: "Valet Systems"
                 },
                 {
                     image: "/flag.svg",
-                    text: "Lorem Ipsum"
+                    text: "SPDPRK Mobile Integration"
                 },
                 {
                     image: "/airport.svg",
-                    text: "Lorem Ipsum"
+                    text: "Wayfinding — Lot Counts & Direction"
                 },
                 {
                     image: "/clipboard.svg",
-                    text: "Lorem Ipsum"
+                    text: "Simplified Access Control"
                 }
             ]}
         />

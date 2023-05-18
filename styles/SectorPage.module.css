@@ -79,6 +79,18 @@
     color: #282D6C;
 }
 
+.sectorPageSection2Tile > div {
+    background-color: #FFF;
+    padding: 5px;
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+}
+
+.sectorPageSection2Tile > p {
+    text-align: center;
+    max-width: 100px;
+}
+
 @media (max-width: 1250px) {
     .sectorPage {
         padding: 0px 50px;

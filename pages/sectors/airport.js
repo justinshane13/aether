@@ -5,26 +5,26 @@ const Airport = () => {
         <SectorPage
             name="Airport & Off-Airport"
             description={[
-                "Airports use parking equipment such as automated ticket dispensers, payment machines, and parking guidance systems, parking reservations, valet.",
-                "Airports are bustling environments, constantly filled with passengers, visitors, suppliers, public transit operators, taxis, and employees. As the need for both short-term and long-term parking is ongoing, airport parking facilities must be designed to accommodate all these groups with quick, easy, and user-friendly technologies. A dependable, adaptable, and user-friendly parking management system is crucial in ensuring smooth parking operations for all."
+                "Airports serve as vibrant hubs connecting business leaders, adventurous explorers, and families alike. Travelers seek a hassle-free journey, desiring smooth transitions to and from their destinations. At SPDPRK, we excel in delivering unparalleled convenience, exceptional service, and a comprehensive range of amenities. Our commitment lies in offering the most extensive product lineup within the industry.",
+                "Through innovative solutions such as frequent parker programs, frictionless License Plate Recognition (LPR) technology, Advanced reservations and dedicated valet services, we ensure that your patrons enjoy a seamless parking experience before and after their travels. With SPDPRK, you can confidently provide your customers with a truly effortless and enjoyable journey."
             ]}
             image="/airport_image.jpg"
             characteristics={[
                 {
-                    image: "/government.svg",
-                    text: "Lorem Ipsum"
+                    image: "/sector_car_blue.svg",
+                    text: "Fast Throughput"
                 },
                 {
-                    image: "/flag.svg",
-                    text: "Lorem Ipsum"
+                    image: "/sector_license.svg",
+                    text: "License Plate Recognition"
                 },
                 {
-                    image: "/airport.svg",
-                    text: "Lorem Ipsum"
+                    image: "/sector_reserve.svg",
+                    text: "Reservations"
                 },
                 {
-                    image: "/clipboard.svg",
-                    text: "Lorem Ipsum"
+                    image: "/sector_frequent_program.svg",
+                    text: "Frequent Parker Programs"
                 }
             ]}
         />

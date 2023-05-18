@@ -5,7 +5,7 @@ const Government = () => {
         <SectorPage
             name="Government & Public Institutions"
             description={[
-                "Government and public institutions use parking equipment such as parking barriers, payment kiosks, and parking guidance systems , LPR for secure entry. Colleges and universities often experience high traffic during peak times, with students and staff arriving and leaving parking facilities at the same time. Despite the rush, it is important to maintain a hospitable environment for students, employees, guests, and suppliers. Efficient traffic flow and swift entry and exit are critical in achieving this goal.",
+                "As municipalities aim to enhance services, amenities, and conveniences for their constituents, they face the challenge of doing so within constrained budgets. At SPDPRK, we recognize this need and offer a comprehensive range of on- and off-street parking solutions tailored to address these concerns. Our streamlined systems enable easier revenue and asset tracking, resulting in improved cost efficiency without compromising performance or user satisfaction. By partnering with SPDPRK, municipalities can optimize their parking operations, effectively allocate resources, and continue delivering exceptional experiences to their valued customers while maintaining fiscal responsibility.",
                 "SPDPRK has decades of experience in providing smart parking solutions for college and university campuses. Our cutting-edge, user-friendly, and scalable parking solutions ensure a smooth flow of traffic, even during peak times."
             ]}
             image="/government_image.jpg"
