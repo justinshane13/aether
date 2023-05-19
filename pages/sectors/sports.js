@@ -11,19 +11,19 @@ const Sports = () => {
             image="/sports_image.jpg"
             characteristics={[
                 {
-                    image: "/sector_car_white.svg",
+                    image: "/sector_lightning_white_new.svg",
                     text: "Fast Throughput"
                 },
                 {
-                    image: "/flag.svg",
+                    image: "/sector_prepay_white.svg",
                     text: "Prepay Solutions"
                 },
                 {
-                    image: "/sector_rev_white.svg",
+                    image: "/sector_money_white_new.svg",
                     text: "Revenue Control"
                 },
                 {
-                    image: "/clipboard.svg",
+                    image: "/sector_directions_white.svg",
                     text: "Wayfinding"
                 }
             ]}

@@ -11,19 +11,19 @@ const Government = () => {
             image="/government_image.jpg"
             characteristics={[
                 {
-                    image: "/government.svg",
+                    image: "/sector_reliability_white.svg",
                     text: "Reliability"
                 },
                 {
-                    image: "/flag.svg",
+                    image: "/sector_service_white.svg",
                     text: "Service"
                 },
                 {
-                    image: "/airport.svg",
+                    image: "/sector_accessible_white.svg",
                     text: "Accessibility"
                 },
                 {
-                    image: "/clipboard.svg",
+                    image: "/sector_technology_white.svg",
                     text: "Technology"
                 }
             ]}

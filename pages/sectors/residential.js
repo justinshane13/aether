@@ -12,19 +12,19 @@ const Residential = () => {
             image="/residential_image.jpg"
             characteristics={[
                 {
-                    image: "/government.svg",
+                    image: "/sector_access_white.svg",
                     text: "Access Control"
                 },
                 {
-                    image: "/flag.svg",
+                    image: "/sector_simplicity_white.svg",
                     text: "Simplicity"
                 },
                 {
-                    image: "/sector_license_plate_white.svg",
+                    image: "/sector_lic_plate_white_new.svg",
                     text: "License Plate Recognition"
                 },
                 {
-                    image: "/sector_val_white.svg",
+                    image: "/sector_valid_white_new.svg",
                     text: "Validations"
                 }
             ]}

@@ -11,19 +11,19 @@ const Hospital = () => {
             image="/hospital_image.jpg"
             characteristics={[
                 {
-                    image: "/government.svg",
+                    image: "/sector_valet_white.svg",
                     text: "Valet Systems"
                 },
                 {
-                    image: "/flag.svg",
+                    image: "/sector_mobile_white_new.svg",
                     text: "SPDPRK Mobile Integration"
                 },
                 {
-                    image: "/airport.svg",
+                    image: "/sector_directions_white.svg",
                     text: "Wayfinding — Lot Counts & Direction"
                 },
                 {
-                    image: "/clipboard.svg",
+                    image: "/sector_access_white.svg",
                     text: "Simplified Access Control"
                 }
             ]}

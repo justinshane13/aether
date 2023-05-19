@@ -12,19 +12,19 @@ const Restaurant = () => {
             image="/restaurant_image.jpg"
             characteristics={[
                 {
-                    image: "/sector_frequent_white.svg",
+                    image: "/sector_frequent_white_new.svg",
                     text: "Frequent Parker Programs"
                 },
                 {
-                    image: "/sector_val_white.svg",
+                    image: "/sector_valid_white_new.svg",
                     text: "Validation Systems"
                 },
                 {
-                    image: "/airport.svg",
+                    image: "/sector_prepay_white.svg",
                     text: "Prepay Options"
                 },
                 {
-                    image: "/clipboard.svg",
+                    image: "/sector_valet_white.svg",
                     text: "Valet Systems"
                 }
             ]}

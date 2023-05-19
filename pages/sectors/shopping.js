@@ -11,19 +11,19 @@ const Shopping = () => {
             image="/shopping_image.jpg"
             characteristics={[
                 {
-                    image: "/government.svg",
+                    image: "/sector_valid_white_new.svg",
                     text: "Validations"
                 },
                 {
-                    image: "/flag.svg",
+                    image: "/sector_directions_white.svg",
                     text: "Wayfinding"
                 },
                 {
-                    image: "/sector_rev_white.svg",
+                    image: "/sector_money_white_new.svg",
                     text: "Revenue Control"
                 },
                 {
-                    image: "/sector_car_white.svg",
+                    image: "/sector_lightning_white_new.svg",
                     text: "Fast Throughput"
                 }
             ]}

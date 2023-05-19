@@ -12,19 +12,19 @@ const Hotel = () => {
             image="/hotel_image.jpg"
             characteristics={[
                 {
-                    image: "/government.svg",
+                    image: "/sector_card_white.svg",
                     text: "Room Key or Phone Integration"
                 },
                 {
-                    image: "/flag.svg",
+                    image: "/sector_valet_white.svg",
                     text: "Valet Systems"
                 },
                 {
-                    image: "/sector_val_white.svg",
+                    image: "/sector_valid_white_new.svg",
                     text: "Validation Systems"
                 },
                 {
-                    image: "/clipboard.svg",
+                    image: "/sector_mobile_white_new.svg",
                     text: "SPDPRK Mobile App"
                 }
             ]}
