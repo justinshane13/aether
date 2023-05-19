@@ -13,19 +13,19 @@ const Residential = () => {
             characteristics={[
                 {
                     image: "/government.svg",
-                    text: "Lorem Ipsum"
+                    text: "Access Control"
                 },
                 {
                     image: "/flag.svg",
-                    text: "Lorem Ipsum"
+                    text: "Simplicity"
                 },
                 {
-                    image: "/airport.svg",
-                    text: "Lorem Ipsum"
+                    image: "/sector_license_plate_white.svg",
+                    text: "License Plate Recognition"
                 },
                 {
-                    image: "/clipboard.svg",
-                    text: "Lorem Ipsum"
+                    image: "/sector_val_white.svg",
+                    text: "Validations"
                 }
             ]}
         />

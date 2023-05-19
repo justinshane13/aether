@@ -20,7 +20,7 @@ const Hotel = () => {
                     text: "Valet Systems"
                 },
                 {
-                    image: "/airport.svg",
+                    image: "/sector_val_white.svg",
                     text: "Validation Systems"
                 },
                 {

@@ -504,7 +504,7 @@
   font-weight: 400;
   font-size: 1.1em;
   line-height: 160%;
-  color: rgba(40, 45, 108, 0.7);
+  color: #282D6C;
   width: 360px;
   text-align: center;
   margin: 20px 0px 0px 0px;
@@ -1069,24 +1069,15 @@
   }
   
   .upgradeTitle {
-    font-weight: 900;
     font-size: 2em;
-    line-height: 140%;
-    letter-spacing: 1px;
-    color: #282D6C;
     text-align: center;
     margin: 0;
   }
   
   .upgradeParagraph {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 400;
     font-size: 1em;
-    line-height: 160%;
-    color: rgba(40, 45, 108, 0.7);
     width: 360px;
-    text-align: center;
     margin: 20px 0px 0px 0px;
   }
 

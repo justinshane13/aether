@@ -68,27 +68,29 @@
 
 .sectorPageSection2 > div {
     display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
+    justify-content: space-between;
+    margin-top: 40px;
 }
 
 .sectorPageSection2Tile {
     display: flex;
-    flex-direction: column;
     align-items: center;
     color: #282D6C;
+    max-width: 250px;
 }
 
 .sectorPageSection2Tile > div {
-    background-color: #FFF;
-    padding: 5px;
+    background-color: #4A78AF;
+    padding: 10px;
     border-radius: 10px;
-    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+    display: flex;
 }
 
 .sectorPageSection2Tile > p {
-    text-align: center;
-    max-width: 100px;
+    text-align: left;
+    font-size: 1.3em;
+    font-weight: 400;
+    padding: 0px 15px;
 }
 
 @media (max-width: 1250px) {
@@ -108,6 +110,10 @@
     .sectorPageSection1 > div > div {
         width: 100%;
         margin-top: 50px;
+    }
+
+    .sectorPageSection2 {
+        padding: 0px;
     }
 }
 
@@ -146,12 +152,19 @@
         padding: 0;
     }
 
+    .sectorPageSection2 > div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px 0px;
+        max-width: 630px;
+    }
+
     .sectorPageIcon {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
 
     .sectorPageSection2Tile > p {
-        font-size: .85em;
+        font-size: 1em;
     }
 }

@@ -12,19 +12,19 @@ const Government = () => {
             characteristics={[
                 {
                     image: "/government.svg",
-                    text: "Lorem Ipsum"
+                    text: "Reliability"
                 },
                 {
                     image: "/flag.svg",
-                    text: "Lorem Ipsum"
+                    text: "Service"
                 },
                 {
                     image: "/airport.svg",
-                    text: "Lorem Ipsum"
+                    text: "Accessibility"
                 },
                 {
                     image: "/clipboard.svg",
-                    text: "Lorem Ipsum"
+                    text: "Technology"
                 }
             ]}
         />

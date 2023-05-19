@@ -11,19 +11,19 @@ const Airport = () => {
             image="/airport_image.jpg"
             characteristics={[
                 {
-                    image: "/sector_car_blue.svg",
+                    image: "/sector_lightning_white_new.svg",
                     text: "Fast Throughput"
                 },
                 {
-                    image: "/sector_license.svg",
+                    image: "/sector_lic_plate_white_new.svg",
                     text: "License Plate Recognition"
                 },
                 {
-                    image: "/sector_reserve.svg",
+                    image: "/sector_reservation_white_new.svg",
                     text: "Reservations"
                 },
                 {
-                    image: "/sector_frequent_program.svg",
+                    image: "/sector_frequent_white_new.svg",
                     text: "Frequent Parker Programs"
                 }
             ]}

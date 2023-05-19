@@ -29,12 +29,13 @@ const SPDPRK = () => {
                     </div>
                     <div className={styles.SPDPRKSection2}>
                         <h2>Legacy to SPDPRK</h2>
-                        <p>After 45 years in the parking industry, we've seen — and built — just about every type of parking equipment you can imagine. While we can still build them, we've designed SPDPRK to replace or enhance all aspects of a parking operation.</p>
+                        <p>After 45 years in the parking industry, we've seen — and built — just about every type of parking equipment you can imagine. While we can still build them, we've also dedicated ourselves to the ongoing development of essential parking equipment.</p>
+                        <p>Nevertheless, our ultimate goal is to design SPDPRK to not only replace or enhance existing equipment but to comprehensively transform and optimize every aspect of a parking operation.</p>
                         <div className={styles.SPDPRKSection2ExamplesContainer}>
                             <div className={styles.SPDPRKSection2Example}>
                                 <div className={styles.SPDPRKSection2ExampleHeader}>
                                     <div className={styles.SPDPRKSection2ExampleImageContainer}>
-                                        <Image className={styles.SPDPRKSection2ExampleImage} src="/pay_on_foot.svg" width={80} height={80} />
+                                        <Image className={styles.SPDPRKSection2ExampleImage} src="/pay_on_foot2.svg" width={65} height={65} />
                                     </div>
                                     <h3>Pay On Foot System</h3>
                                 </div>
@@ -89,7 +90,7 @@ const SPDPRK = () => {
                             <div className={styles.SPDPRKSection2Example}>
                                 <div className={styles.SPDPRKSection2ExampleHeader}>
                                     <div className={styles.SPDPRKSection2ExampleImageContainer}>
-                                        <Image className={styles.SPDPRKSection2ExampleImage} src="/card_scanner.svg" width={60} height={60} />
+                                        <Image className={styles.SPDPRKSection2ExampleImage} src="/card_scanner3.svg" width={55} height={55} />
                                     </div>
                                     <h3>Card Reader</h3>
                                 </div>

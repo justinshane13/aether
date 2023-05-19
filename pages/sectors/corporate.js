@@ -11,20 +11,20 @@ const Corporate = () => {
             image="/corporate_image.jpg"
             characteristics={[
                 {
-                    image: "/government.svg",
-                    text: "Lorem Ipsum"
+                    image: "/sector_lightning_white_new.svg",
+                    text: "Fast Throughput"
                 },
                 {
-                    image: "/flag.svg",
-                    text: "Lorem Ipsum"
+                    image: "/sector_valid_white_new.svg",
+                    text: "Visitor Validations"
                 },
                 {
-                    image: "/airport.svg",
-                    text: "Lorem Ipsum"
+                    image: "/sector_money_white_new.svg",
+                    text: "Revenue Control"
                 },
                 {
-                    image: "/clipboard.svg",
-                    text: "Lorem Ipsum"
+                    image: "/sector_lic_plate_white_new.svg",
+                    text: "License Plate Recognition"
                 }
             ]}
         />

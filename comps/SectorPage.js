@@ -22,7 +22,7 @@ const SectorPage = ({ name, description, image, characteristics }) => {
                         return (
                             <div className={styles.sectorPageSection2Tile}>
                                 <div>
-                                    <Image className={styles.sectorPageIcon} src={c.image} width={70} height={70} />
+                                    <Image className={styles.sectorPageIcon} src={c.image} width={50} height={50} />
                                 </div>
                                 <p>{c.text}</p>
                             </div>

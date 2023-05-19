@@ -7,7 +7,7 @@
 }
 
 .softwareSection1 {
-    padding: 0;
+    padding: 0px 50px;
 }
 
 .softwareSection1 > h1 {
@@ -16,4 +16,32 @@
     line-height: 140%;
     letter-spacing: 1px;
     color: #282D6C;
+}
+
+.softwareSection1 > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 160%;
+    color: #282D6C;
+}
+
+@media (max-width: 1250px) {
+    .softwareSection1 {
+        padding: 0px 0px;
+    }
+}
+
+@media (max-width: 800px) {
+    .software {
+        padding: 20px 15px 0px 15px;
+    }
+
+    .softwareSection1 > h1 {
+        font-size: 2em;
+    }
+
+    .softwareSection1 > p {
+        font-size: 1em;
+    }
 }
