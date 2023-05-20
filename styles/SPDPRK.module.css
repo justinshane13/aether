@@ -49,13 +49,22 @@
     z-index: 1;
 }
 
-.SPDPRKSection1Blue > p {
+.SPDPRKSection1Blue > div {
+    display: flex;
+}
+
+.SPDPRKHardwareImage {
+    border-radius: 12px;
+}
+
+.SPDPRKSection1Blue > div > div > p {
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 1.3em;
     line-height: 160%;
     color: #282D6C;
     z-index: 1;
+    margin-left: 50px;
 }
 
 .background1 {
@@ -318,8 +327,12 @@
     .SPDPRKSection1Blue > h2 {
         font-size: 2em;
     }
+
+    .SPDPRKSection1Blue > div {
+        flex-direction: column;
+    }
     
-    .SPDPRKSection1Blue > p {
+    .SPDPRKSection1Blue > div > div > p {
         font-size: 1em;
     }
 

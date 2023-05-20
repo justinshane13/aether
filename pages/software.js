@@ -1,5 +1,6 @@
 import styles from '@/styles/Software.module.css'
 import Head from 'next/head'
+import Upgrade from '@/comps/Upgrade';
 
 const Software = () => {
     return (
@@ -17,6 +18,7 @@ const Software = () => {
                         <p>Every parking operation is unique, which is why we provide customizable tools for every step of the process.</p>
                     </div>
                 </div>
+                <Upgrade />
             </main>
         </>
     );

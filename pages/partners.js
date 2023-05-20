@@ -16,7 +16,7 @@ const Partners = () => {
                     <div className={styles.partnersSection1}>
                         <h1>Partners</h1>
                         <p>We understand the parking industry, inside and out. We know your clients have specific needs, and cookie-cutter products won't cut it. By partnering with us, you will ensure you can offer the best possible solutions to your customers.</p>
-                        <p><strong>Customers</strong>: If you are already working with someone to oversee and maintain your parking equipment, that's not a problem — we can train anyone to use our system. We can add SPDPRK technology to your operation and will work closely with your existing partner. We are not proprietary, which means we'll make sure they have the tools and information they need to maintain your equipment.</p>
+                        <p>For customers, if you are already working with someone to oversee and maintain your parking equipment, that's not a problem — we can train anyone to use our system. We can add SPDPRK technology to your operation and will work closely with your existing partner. We are not proprietary, which means we'll make sure they have the tools and information they need to maintain your equipment.</p>
                     </div>
                     <div className={styles.partnersSection2Container}>
                         <div className={styles.partnersSection2}>

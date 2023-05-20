@@ -20,8 +20,13 @@ const SPDPRK = () => {
                         <div>
                             <div className={styles.SPDPRKSection1Blue}>
                                 <h2>Hardware & Software</h2>
-                                <p>SPDPRK systems are designed to be Zero Obsolescent, requiring minimal maintenance and built on a secure and stable technology that is resistant to breakdowns. We utilize a cloud-based monitoring system along with an optional on site server to manage your location with an ethernet connection and power. </p>
-                                <p>We designed the system to be a solution to the variety of challenges parking operations face. By adding SPDPRK to your parking asset, you can drastically reduce the footprint of your equipment. Below are some of the ways it can replace or enhance legacy equipment.</p>
+                                <div>
+                                    <Image className={styles.SPDPRKHardwareImage} src="/hardware.jpg" width={500} height={500} />
+                                    <div>
+                                        <p>SPDPRK systems are designed to be Zero Obsolescent, requiring minimal maintenance and built on a secure and stable technology that is resistant to breakdowns. We utilize a cloud-based monitoring system along with an optional on site server to manage your location with an ethernet connection and power. </p>
+                                        <p>We designed the system to be a solution to the variety of challenges parking operations face. By adding SPDPRK to your parking asset, you can drastically reduce the footprint of your equipment. Below are some of the ways it can replace or enhance legacy equipment.</p>
+                                    </div>
+                                </div>
                             </div>
                             <div className={styles.background1}></div>
                             <Image className={styles.greenHalfCircle} src="/green_half_circle.svg" width={50} height={100} />
