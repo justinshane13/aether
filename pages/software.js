@@ -17,6 +17,16 @@ const Software = () => {
                         <p>Innovation is at the center of who we are. The only way to stick around for 45+ years in the same industry is to find new, creative solutions to our customers' problems. Software plays a large part in reaching that goal.</p>
                         <p>Every parking operation is unique, which is why we provide customizable tools for every step of the process.</p>
                     </div>
+                    <div dangerouslySetInnerHTML={{ __html: `
+                        <video
+                        loop
+                        muted
+                        autoplay
+                        playsinline
+                        src="/NewDesignP.mp4"
+                        class="${styles.softwareVideo}"
+                        />,
+                    ` }}></div>
                 </div>
                 <Upgrade />
             </main>

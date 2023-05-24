@@ -26,6 +26,12 @@
     color: #282D6C;
 }
 
+.softwareVideo {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (max-width: 1250px) {
     .softwareSection1 {
         padding: 0px 0px;
