@@ -26,8 +26,17 @@
     color: #282D6C;
 }
 
-.softwareVideo {
+.softwareVideoContainer {
+    overflow: hidden;
+    margin: 50px auto 0px auto;
+    box-shadow: #FFF 10px 10px 40px 10px;
     width: 700px;
+}
+
+.softwareVideo {
+    position: relative;
+    left: 1px;
+    width: 100%;
 }
 
 @media (max-width: 1250px) {
@@ -47,5 +56,9 @@
 
     .softwareSection1 > p {
         font-size: 1em;
+    }
+
+    .softwareVideoContainer {
+        width: 100%;
     }
 }
