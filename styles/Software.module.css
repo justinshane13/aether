@@ -27,9 +27,7 @@
 }
 
 .softwareVideo {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 700px;
 }
 
 @media (max-width: 1250px) {

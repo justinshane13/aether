@@ -23,7 +23,7 @@ const Software = () => {
                         muted
                         autoplay
                         playsinline
-                        src="/NewDesignQ.mp4"
+                        src="/software_mp4.mp4"
                         class="${styles.softwareVideo}"
                         />,
                     ` }}></div>
