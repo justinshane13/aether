@@ -6,7 +6,10 @@ const SectorsLinks = () => {
     return (
         <div className={styles.sectorsHighlight}>
             <motion.div
-                
+                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ margin: "0px 0px -100px 0px" }}
+                transition={{ duration: .5 }}
             >
                 <div className={styles.sectorsText}>
                     <p className={styles.sectorsTitle}>Bespoke solutions for every sector</p>
@@ -15,7 +18,10 @@ const SectorsLinks = () => {
                 </div>
             </motion.div>
             <motion.div
-                
+                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ margin: "0px 0px -100px 0px" }}
+                transition={{ duration: .5 }}
             >
                 <div className={styles.sectorsGrid}>
                     <SectorLink sector="airport" sectorFull="Airport & Off-Airport" />

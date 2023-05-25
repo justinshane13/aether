@@ -1,16 +1,24 @@
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link';
 import Image from 'next/image';
+import { motion } from 'framer-motion'
 
 const Company = () => {
     return (
         <div className={styles.companyBackgroundContainer}>
             <div className={styles.company}>
-                <div className={styles.companyText}>
-                    <p className={styles.companyTitle}>A company you can trust</p>
-                    <p className={styles.companyParagraph}>We have over four decades of experience in the parking industry. We apply that knowledge to today’s challenges to find creative solutions that work. We know that your organization is unique, and we are committed to building a product that is exactly what you need.</p>
-                </div>
-                <Link className={styles.companyLink} href="/about">Learn More</Link>
+                <motion.div
+                    initial={{ opacity: 0, y: 100 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ margin: "0px 0px -100px 0px" }}
+                    transition={{ duration: .5 }}
+                >
+                    <div className={styles.companyText}>
+                        <p className={styles.companyTitle}>A company you can trust</p>
+                        <p className={styles.companyParagraph}>We have over four decades of experience in the parking industry. We apply that knowledge to today’s challenges to find creative solutions that work. We know that your organization is unique, and we are committed to building a product that is exactly what you need.</p>
+                    </div>
+                    <Link className={styles.companyLink} href="/about">Learn More</Link>
+                </motion.div>
                 <div className={styles.companyPhotoGrid}>
                     <div className={styles.companyPhoto1}>
                         <Image className={styles.companyPhoto} src="/experienced.jpg" width={100} height={100} unoptimized />
