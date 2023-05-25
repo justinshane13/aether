@@ -10,7 +10,7 @@ const Company = () => {
                 <motion.div
                     initial={{ opacity: 0, y: 100 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ margin: "0px 0px -100px 0px" }}
+                    viewport={{ once: true, margin: "0px 0px -100px 0px" }}
                     transition={{ duration: .5 }}
                 >
                     <div className={styles.companyText}>
