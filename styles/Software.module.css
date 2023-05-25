@@ -16,21 +16,27 @@
     line-height: 140%;
     letter-spacing: 1px;
     color: #282D6C;
+
 }
 
-.softwareSection1 > p {
+.softwareSection1 > div {
+    display: flex;
+}
+
+.softwareSection1 > div > div > p {
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 1.3em;
     line-height: 160%;
     color: #282D6C;
+    width: 100%;
 }
 
 .softwareVideoContainer {
     overflow: hidden;
-    margin: 50px auto 0px auto;
-    box-shadow: #FFF 10px 10px 40px 10px;
-    width: 700px;
+    margin: 50px 0px 0px 50px;
+    box-shadow: #FFF 0px 0px 30px 30px;
+    width: 100%;
 }
 
 .softwareVideo {
@@ -55,7 +61,7 @@
         font-size: 2em;
     }
 
-    .softwareSection1 > p {
+    .softwareSection1 > div > div > p {
         font-size: 1em;
     }
 
