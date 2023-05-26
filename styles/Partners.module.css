@@ -40,7 +40,7 @@
     max-width: 1150px;
 }
 
-.partnersSection2 > div > h2 {
+.partnersSection2 > div > div > h2 {
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 1.8em;
@@ -54,7 +54,7 @@
     margin-top: 10px;
 }
 
-.partnersSection2 > div > p {
+.partnersSection2 > div > div > p {
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 1.1em;
@@ -194,11 +194,11 @@
         grid-template-columns: 1fr;
     }
 
-    .partnersSection2 > div > h2 {
+    .partnersSection2 > div > div > h2 {
         font-size: 1.5em;
     }
 
-    .partnersSection2 > div > p {
+    .partnersSection2 > div > div > p {
         font-size: 1em;
     }
 
