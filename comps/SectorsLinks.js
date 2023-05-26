@@ -35,7 +35,6 @@ const SectorsLinks = () => {
                     <SectorLink sector="sports" sectorFull="Sports Venues & Arenas" />
                 </div>
             </motion.div>
-            <div className={styles.background3}></div>
         </div>
     );
 }
