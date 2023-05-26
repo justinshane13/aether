@@ -231,13 +231,13 @@ const SPDPRK = () => {
                             <div className={styles.SPDPRKSection4ImagesContainer}>
                                 <div className={styles.SPDPRKSection4Images}>
                                     <div className={styles.SPDPRKSection4ImageContainer}>
-                                        <Image className={styles.SPDPRKSection4Image} src="/hand_crafted.jpg" width={300} height={300} />
-                                    </div>
-                                    <div className={styles.SPDPRKSection4ImageContainer}>
                                         <Image className={styles.SPDPRKSection4Image} src="/hardware.jpeg" width={300} height={300} />
                                     </div>
                                     <div className={styles.SPDPRKSection4ImageContainer}>
-                                        <Image className={styles.SPDPRKSection4Image} src="/family.jpg" width={300} height={300} />
+                                        <Image className={styles.SPDPRKSection4Image} src="/hand_crafted.jpg" width={300} height={300} />
+                                    </div>
+                                    <div className={styles.SPDPRKSection4ImageContainer}>
+                                        <Image className={styles.SPDPRKSection4Image} src="/factory1.jpg" width={300} height={300} />
                                     </div>
                                 </div>
                             </div>

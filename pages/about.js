@@ -71,7 +71,7 @@ const About = () => {
                         transition={{ duration: .5 }}
                     >
                         <div className={styles.aboutSection3}>
-                            <Image className={styles.aboutSectionImage} src="/hand_crafted.jpg" width={400} height={400} />
+                            <Image className={styles.aboutSectionImage} src="/factory1.jpg" width={400} height={400} />
                             <div className={styles.aboutSection3Text}>
                                 <h2>Our equipment must meet a standard of excellence</h2>
                                 <ul>
