@@ -106,7 +106,6 @@ const About = () => {
                             <h2>You'll get a high-quality product, and peace of mind</h2>
                             <p>Whether you're a small parking operation or a large complex of garages, SPDPRK is here to power you with the latest technology and comprehensive solutions that will drive a successful operation.</p>
                             <p>Experience the difference of working with a company that values longevity, compatibility, support, and domestic manufacturing.</p>
-                            <div className={styles.background3}></div>
                         </div>
                     </motion.div>
                     <Upgrade />
