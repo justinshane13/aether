@@ -16,8 +16,10 @@ const Software = () => {
                         <h1>Software & Reports</h1>
                         <div>
                             <div>
-                                <p>Innovation is at the center of who we are. We know that your, creative solutions to our customers' problems. Software plays a vital part in reaching that goal.</p>
-                                <p>Every parking operation is unique, which is why we provide customizable tools for every step of the process.</p>
+                                <h2>Innovation is at the center of who we are.</h2>
+                                <p>Our focus is to find creative, yet simple solutions to our customers' problems. Software plays a vital part in reaching that goal.</p>
+                                <p>Our software and reporting suite is designed to make your parking operation faster, more efficient, and more profitable. We provide customizable tools for every step of the process. You decide what works best for your operation, and we build it custom for you.</p>
+                                <p>When you decide what software and reports you want to add to your operation, you'll have options to add to your brick-and-mortar location and other tools you can manage in the cloud. We'll make sure all your bases are covered, so that you're always in control of what happens at your location.</p>
                             </div>
                             <div className={styles.softwareVideoContainer} dangerouslySetInnerHTML={{ __html: `
                                 <video
@@ -29,6 +31,64 @@ const Software = () => {
                                 class="${styles.softwareVideo}"
                                 />,
                             ` }}></div>
+                        </div>
+                    </div>
+                    <div className={styles.softwareSection2}>
+                        <div className={styles.softwareSection2ListsContainer}>
+                            <div className={styles.softwareSection2OnSite}>
+                                <h2>On-Site</h2>
+                                <div>
+                                    <div>
+                                        <p>Anti-Passback</p>
+                                        <p>Carpool Option</p>
+                                        <p>Debit Card Daily Re-Entry</p>
+                                        <p>Debit Time Zone Violator</p>
+                                        <p>Frequent Parker Programs</p>
+                                        <p>Level Occoupancy Count</p>
+                                        <p>License Plate Recognition</p>
+                                        <p>Limit by House Account</p>
+                                        <p>Lot Count Display</p>
+                                    </div>
+                                    <div>
+                                        <p>Lot Full Sign Activator</p>
+                                        <p>Nest Violator</p>
+                                        <p>Online Validator</p>
+                                        <p>Rates at Register</p>
+                                        <p>Roving Cashier</p>
+                                        <p>Security Levels</p>
+                                        <p>Time Debit</p>
+                                        <p>Valet Parking</p>
+                                        <p>WebVals</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className={styles.softwareSection2Cloud}>
+                                <h2>Cloud-Based & Remote</h2>
+                                <div>
+                                    <div>
+                                        <p>Anti-Passback</p>
+                                        <p>Card Summary Report</p>
+                                        <p>Central Cashiering</p>
+                                        <p>Debit Card Daily Re-Entry</p>
+                                        <p>Fail-Soft Software</p>
+                                        <p>Frequent Parker Programs</p>
+                                        <p>Lane Monitoring Report</p>
+                                        <p>Machine Readability</p>
+                                        <p>Net Admin</p>
+                                    </div>
+                                    <div>
+                                        <p>Outstanding Ticket Report</p>
+                                        <p>Prepay Feature</p>
+                                        <p>Programmable Rates</p>
+                                        <p>Rates Replay</p>
+                                        <p>Remote Shift Report</p>
+                                        <p>Revenue Summary Report</p>
+                                        <p>Sequence Number Package</p>
+                                        <p>Ticket Nesting</p>
+                                        <p>WebVals</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

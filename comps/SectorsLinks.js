@@ -13,7 +13,10 @@ const SectorsLinks = () => {
             >
                 <div className={styles.sectorsText}>
                     <p className={styles.sectorsTitle}>Bespoke solutions for every sector</p>
-                    <p className={styles.sectorsParagraph}>Each organization brings something different to the table. We design our equipment and service to meet the specific needs of every sector that needs parking equipment.</p>
+                    <div>
+                        <p className={styles.sectorsParagraph}>Every organization offers a unique challenge. Our focus lies in tailoring our equipment and services to cater to the specific requirements of various needs seeking a parking solution.</p>
+                        <p className={styles.sectorsParagraph}>Whether you require gated or gateless systems, tickets or ticketless options, cash or cashless, automated or attended we are fully equipped to address your individual needs. As the complexity of a problem increases, so does our engineers' enthusiasm to solve it.</p>
+                    </div>
                     <div className={styles.background3}></div>
                 </div>
             </motion.div>
