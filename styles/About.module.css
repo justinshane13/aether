@@ -333,18 +333,19 @@
     }
 
     .aboutSection0 > h1 {
-        font-size: 2.5em;
-        max-width: 350px;
+        font-size: 3em;
+        line-height: 1.3em;
     }
 
     .aboutSection0 > div > p {
-        font-size: 1.3em;
+        font-size: 1.4em;
         max-width: 250px;
         margin-right: 20px;
     }
 
     .greenArrow {
-        width: 30px;
+        width: 50px;
+        margin-top: 40px;
     }
     
     .aboutSection1 {
@@ -404,6 +405,7 @@
 
     .aboutSection3 > div > p {
         font-size: 1em;
+        padding: 0;
     }
 
     .aboutSection4 {
