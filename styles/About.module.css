@@ -7,8 +7,81 @@
     margin-right: auto;
 }
 
+.aboutBannerHorizontal {
+    height: 80px;
+    width: 120%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dbdce6;
+    color: #282D6C;
+    font-size: 1.4em;
+    font-weight: 300;
+    position: absolute;
+    top: 650px;
+    left: -100px;
+    transform: rotate(-10deg);
+    z-index: 2;
+}
+
+.aboutBannerHorizontal > div {
+    height: 12px;
+    width: 12px;
+    border-radius: 6px;
+    background-color: #282D6C;
+}
+
+.aboutBannerVertical {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5FCFA9;
+    color: black;
+    font-size: 1.4em;
+    font-weight: 300;
+    position: absolute;
+    top: 300px;
+    right: -420px;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+.aboutBannerVertical > div {
+    height: 12px;
+    width: 12px;
+    border-radius: 6px;
+    background-color: #282D6C;
+}
+
+.aboutSection0 {
+    padding: 0px 50px 250px 50px;
+    position: relative;
+}
+
+.aboutSection0 > h1 {
+    font-size: 5.5em;
+    color: #282D6C;
+    font-weight: 400;
+}
+
+.aboutSection0 > div {
+    display: flex;
+    align-items: center;
+}
+
+.aboutSection0 > div > p {
+    font-size: 2.5em;
+    color: #282D6C;
+    font-weight: 400;
+    margin-right: 40px;
+    margin-top: 0px;
+}
+
 .aboutSection1 {
-    padding: 0px 50px 0px 50px;
+    padding: 50px 50px 50px 50px;
+    position: relative;
 }
 
 .aboutSection1 > h1 {
@@ -31,11 +104,17 @@
     padding: 40px 50px;
     margin-top: 50px;
     position: relative;
-    background-color: #4A78AF44;
+    background-color: #dbdce6;
     border-radius: 12px;
+    display:flex;
+    align-items: center;
 }
 
-.aboutSection2 > h2 {
+.aboutSection2 > div {
+    margin-right: 50px;
+}
+
+.aboutSection2 > div > h2 {
     font-weight: 900;
     font-size: 2em;
     line-height: 140%;
@@ -43,7 +122,7 @@
     color: #282D6C;
 }
 
-.aboutSection2 > div {
+/* .aboutSection2 > div {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 0px 20px;
@@ -63,10 +142,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.aboutSection2GridElement > p {
-    margin-left: 10px;
+.aboutSection2 > div > p {
+    margin-left: 0px;
     padding: 0px 5px;
     font-family: 'Montserrat';
     font-weight: 400;
@@ -80,21 +159,25 @@
     align-items: center;
     padding: 40px 50px;
     margin-top: 50px;
-    position: relative;
     background-color: #00A57833;
     border-radius: 12px;
 }
 
+.aboutSectionImageContainer {
+    padding: 0;
+    margin: 0;
+}
+
 .aboutSectionImage {
     border-radius: 12px;
+    object-fit: cover;
 }
 
 .aboutSection3Text {
-    margin-left: 90px;
-    max-width: 700px;
+    margin-left: 40px;
 }
 
-.aboutSection3Text > h2 {
+.aboutSection3 > div > h2 {
     font-weight: 900;
     font-size: 2em;
     line-height: 140%;
@@ -104,14 +187,24 @@
     padding: 0;
 }
 
-.aboutSection3Text > ul > li {
+.aboutSection3 > div > p {
+    margin-left: 0px;
+    padding: 0px 5px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 160%;
+    color: #282D6C;
+}
+
+/* .aboutSection3Text > ul > li {
     font-family: 'Montserrat';
     margin-bottom: 20px;
     font-weight: 400;
     font-size: 1.3em;
     line-height: 160%;
     color: #282D6C;
-}
+} */
 
 .aboutSection4 {
     padding: 20px 50px 0px 50px;
@@ -152,12 +245,57 @@
 }
 
 @media (max-width: 1250px) {
+    .aboutBannerHorizontal {
+        height: 50px;
+        font-size: .9em;
+        top: 500px;
+    }
+
+    .aboutBannerHorizontal > div {
+        height: 8px;
+        width: 8px;
+        border-radius: 4px;
+    }
+
+    .aboutBannerVertical {
+        height: 50px;
+        font-size: .9em;
+        top: 300px;
+    }
+
+    .aboutBannerVertical > div {
+        height: 8px;
+        width: 8px;
+        border-radius: 4px;
+    }
+    
+    .aboutSection0 {
+        padding: 0px 0px 200px 0px;
+    }
+
+    .aboutSection0 > h1 {
+        font-size: 4em;
+    }
+
+    .aboutSection0 > div > p {
+        font-size: 2em;
+    }
+
+    .greenArrow {
+        width: 50px;
+    }
+    
     .aboutSection1 {
         padding: 0;
     }
 
+    .aboutSection1 > h1 {
+        font-size: 2.5em;
+    }
+
     .aboutSection2 {
         padding: 20px 40px;
+        flex-direction: column;
     }
 
     .aboutSection3 {
@@ -165,10 +303,8 @@
         flex-direction: column;
     }
 
-    .aboutSection3Text {
-        width: 100%;
-        max-width: 1150px;
-        margin: 40px auto 0px auto;
+    .aboutSection3 > div {
+        margin: 20px;
     }
 
     .aboutSection4 {
@@ -177,37 +313,52 @@
 }
 
 @media (max-width: 800px) {
-    .background1 {
-        width: 150px;
-        height: 150px;
-        left: 0px;
-        top: 150px;
-        background: #5FCFA9;
-        filter: blur(150px);
-        opacity: .7;
-        position: absolute;
-        z-index: -0;
-    }
-
-    .background2 {
-        width: 150px;
-        height: 150px;
-        right: 0px;
-        top: 550px;
-        background: #4A78AF;
-        filter: blur(150px);
-        opacity: 0.5;
-        position: absolute;
-        z-index: -0;
-      }
-
-    .background7 {
-        width: calc(100% + 30px);
-        left: -15px;
-    }
-    
     .about {
         padding: 0px 15px 0px 15px;
+    }
+
+    .aboutBannerHorizontal {
+        height: 30px;
+        font-size: .5em;
+        top: 370px;
+        left: -20px;
+    }
+
+    .aboutBannerHorizontal > div {
+        height: 6px;
+        width: 6px;
+        border-radius: 3px;
+    }
+
+    .aboutBannerVertical {
+        height: 30px;
+        font-size: .5em;
+        top: 150px;
+        right: -150px;
+    }
+
+    .aboutBannerVertical > div {
+        height: 8px;
+        width: 8px;
+        border-radius: 4px;
+    }
+    
+    .aboutSection0 {
+        padding: 0px 0px 100px 0px;
+    }
+
+    .aboutSection0 > h1 {
+        font-size: 2.5em;
+        max-width: 250px;
+    }
+
+    .aboutSection0 > div > p {
+        font-size: 1.3em;
+        margin-right: 20px;
+    }
+
+    .greenArrow {
+        width: 30px;
     }
     
     .aboutSection1 {
@@ -223,57 +374,49 @@
     }
 
     .aboutSection2 {
-        padding: 20px 20px;
+        padding: 0px 0px 20px 0px;
         margin-top: 20px;
     }
 
     .aboutSection2 > div {
         display: flex;
         flex-direction: column;
-        grid-gap: 0;
-        width: 100%;
         margin-top: 30px;
+        padding: 0px 15px;
     }
 
-    .aboutSection2 > h2 {
+    .aboutSection2 > div > h2 {
         font-size: 1.5em;
-        max-width: 900px;
         margin-top: 0;
+        padding: 0;
     }
 
-    .aboutSection2Icon {
-        width: 40px;
-    }
-
-    .aboutSection2IconBottom {
-        width: 35px;
-    }
-
-    .aboutSection2GridElement {
-        margin: 0px;
-    }
-
-    .aboutSection2GridElement > p {
+    .aboutSection2 > div > p {
         font-size: 1em;
-        margin-left: 0px;
-        margin-bottom: 0;
+        padding: 0;
+        margin: 0px 0px 20px 0px;
     }
 
     .aboutSection3 {
         padding: 10px 20px;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .aboutSectionImage {
-        width: 100%;
-        height: 100%;
+        width: 330px;
+        height: 330px;
     }
 
-    .aboutSection3Text > h2 {
+    .aboutSection3 > div {
+        padding: 20px 0px 0px 0px;
+        margin: 0;
+    }
+
+    .aboutSection3 > div > h2 {
         font-size: 1.5em;
     }
 
-    .aboutSection3Text > ul > li {
+    .aboutSection3 > div > p {
         font-size: 1em;
     }
 
