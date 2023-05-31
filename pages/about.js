@@ -45,7 +45,7 @@ const About = () => {
                         <div className={styles.aboutSection0}>
                             <h1>Quality. Innovation.<br/>& Experience.</h1>
                             <div>
-                                <p>Find out what separates us from<br/>the rest of the pack.</p>
+                                <p>Find out what separates us from the rest of the pack.</p>
                                 <Image className={styles.greenArrow} src="/green_arrow.svg" width={75} height={75} />
                             </div>
                         </div>
@@ -73,7 +73,8 @@ const About = () => {
                         <div className={styles.aboutSection2}>
                             <div>
                                 <h2>We are focused on creating the highest quality user experience</h2>
-                                <p>We believe that customer satisfaction goes beyond delivering exceptional products. Our knowledgeable and experienced  support team is readily available to assist you with any technical inquiries, troubleshooting, or guidance you may require. We believe in fostering strong partnerships with our clients, and our internal support ensures that you receive prompt and reliable assistance.</p>
+                                <p>Customer satisfaction goes beyond delivering exceptional products. Our knowledgeable and experienced support team is readily available to assist you with any technical inquiries, troubleshooting, or guidance you may require.</p>
+                                <p>We believe in fostering strong partnerships with our clients, and our internal support ensures that you receive prompt and reliable assistance.</p>
                             </div>
                             <Image className={styles.aboutSectionImage} src="/family.jpg" width={400} height={400} />
                         </div>
@@ -102,7 +103,7 @@ const About = () => {
                         transition={{ duration: .5 }}
                     >
                         <div className={styles.aboutSection4}>
-                            <h2>In addition to a high-quality product, you get peace of mind</h2>
+                            <h2>You'll get a high-quality product, and peace of mind</h2>
                             <p>Whether you're a small parking operation or a large complex of garages, SPDPRK is here to power you with the latest technology and comprehensive solutions that will drive a successful operation.</p>
                             <p>Experience the difference of working with a company that values longevity, compatibility, support, and domestic manufacturing.</p>
                             <div className={styles.background3}></div>

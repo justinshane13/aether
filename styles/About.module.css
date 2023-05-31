@@ -77,6 +77,7 @@
     font-weight: 400;
     margin-right: 40px;
     margin-top: 0px;
+    max-width: 600px;
 }
 
 .aboutSection1 {
@@ -279,6 +280,8 @@
 
     .aboutSection0 > div > p {
         font-size: 2em;
+        max-width: 470px;
+
     }
 
     .greenArrow {
@@ -318,42 +321,25 @@
     }
 
     .aboutBannerHorizontal {
-        height: 30px;
-        font-size: .5em;
-        top: 370px;
-        left: -20px;
-    }
-
-    .aboutBannerHorizontal > div {
-        height: 6px;
-        width: 6px;
-        border-radius: 3px;
+        display: none;
     }
 
     .aboutBannerVertical {
-        height: 30px;
-        font-size: .5em;
-        top: 150px;
-        right: -150px;
-    }
-
-    .aboutBannerVertical > div {
-        height: 8px;
-        width: 8px;
-        border-radius: 4px;
+        display: none;
     }
     
     .aboutSection0 {
-        padding: 0px 0px 100px 0px;
+        padding: 0px 0px 50px 0px;
     }
 
     .aboutSection0 > h1 {
         font-size: 2.5em;
-        max-width: 250px;
+        max-width: 350px;
     }
 
     .aboutSection0 > div > p {
         font-size: 1.3em;
+        max-width: 250px;
         margin-right: 20px;
     }
 
