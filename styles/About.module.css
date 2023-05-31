@@ -347,13 +347,24 @@
         width: 50px;
         margin-top: 40px;
     }
+
+    .background3 {
+        position: absolute;
+        width: 491.08px;
+        height: 491.08px;
+        left: -200px;
+        top: 0px;
+        background: rgba(95, 207, 169, 0.15);
+        border-radius: 245.538px;
+        z-index: 0;
+    }
     
     .aboutSection1 {
         padding-top: 20px;
     }
 
     .aboutSection1 > h1 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     .aboutSection1 > p {
