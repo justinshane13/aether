@@ -192,6 +192,10 @@
         margin: 0;
     }
 
+    .softwareSection2 > h2 {
+        font-size: 1.6em;
+    }
+
     .softwareSection2ListsContainer {
         margin: 0;
         flex-direction: column;
@@ -202,7 +206,7 @@
     }
 
     .softwareSection2OnSite > h2 {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .softwareSection2OnSite > div > div {
@@ -218,7 +222,7 @@
     }
 
     .softwareSection2Cloud > h2 {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .softwareSection2Cloud > div > div {
