@@ -21,7 +21,6 @@ const Navbar = () => {
                     <Link className={styles.navLinkCollapsible} onClick={handleClick} href="/software">Software & Reports</Link>
                     <Link className={styles.navLinkCollapsible} onClick={handleClick} href="/sectors">Sectors</Link>
                     <Link className={styles.navLinkCollapsible} onClick={handleClick} href="/partners">Partners</Link>
-                    <Link className={styles.navLinkCollapsible} onClick={handleClick} href="/faq">FAQ</Link>
                     <Link className={styles.navLinkCollapsible} onClick={handleClick} href="/contact">Contact</Link>
                 </div>
             </div>
@@ -31,7 +30,6 @@ const Navbar = () => {
                 <Link className={styles.navLink} href="/software">Software & Reports</Link>
                 <Link className={styles.navLink} href="/sectors">Sectors</Link>
                 <Link className={styles.navLink} href="/partners">Partners</Link>
-                <Link className={styles.navLink} href="/faq">FAQ</Link>
                 <Link className={styles.navLink} href="/contact">Contact</Link>
             </div>
         </nav>
