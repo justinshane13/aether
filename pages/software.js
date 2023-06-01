@@ -34,6 +34,9 @@ const Software = () => {
                         </div>
                     </div>
                     <div className={styles.softwareSection2}>
+                        <h2>A tool for every scenario</h2>
+                        <p>We've built tools and reports for hundreds of different use cases. If you can imagine it, there's a good chance we've built it.</p>
+                        <p>If you need something that is not listed below, don't worry. This list only represents a fraction of what we offer. And if you think the tool you're looking for doesn't exist yet, let us know. Our engineers love to solve new problems.</p>
                         <div className={styles.softwareSection2ListsContainer}>
                             <div className={styles.softwareSection2OnSite}>
                                 <h2>On-Site</h2>
@@ -66,18 +69,19 @@ const Software = () => {
                                 <h2>Cloud-Based & Remote</h2>
                                 <div>
                                     <div>
-                                        <p>Anti-Passback</p>
+                                        <p>Automatic Device Disable</p>
                                         <p>Card Summary Report</p>
                                         <p>Central Cashiering</p>
-                                        <p>Debit Card Daily Re-Entry</p>
+                                        <p>Credit Card Processing</p>
                                         <p>Fail-Soft Software</p>
-                                        <p>Frequent Parker Programs</p>
+                                        <p>Home Garage Satellite</p>
                                         <p>Lane Monitoring Report</p>
                                         <p>Machine Readability</p>
                                         <p>Net Admin</p>
                                     </div>
                                     <div>
                                         <p>Outstanding Ticket Report</p>
+                                        <p>Positive Posting</p>
                                         <p>Prepay Feature</p>
                                         <p>Programmable Rates</p>
                                         <p>Rates Replay</p>
@@ -85,7 +89,6 @@ const Software = () => {
                                         <p>Revenue Summary Report</p>
                                         <p>Sequence Number Package</p>
                                         <p>Ticket Nesting</p>
-                                        <p>WebVals</p>
                                     </div>
                                 </div>
                             </div>

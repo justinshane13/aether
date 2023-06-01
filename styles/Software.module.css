@@ -59,7 +59,23 @@
 
 .softwareSection2 {
     padding: 0px 50px;
-    display: flex;
+}
+
+.softwareSection2 > h2 {
+    font-weight: 900;
+    font-size: 2.2em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+    max-width: 560px;
+}
+
+.softwareSection2 > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 160%;
+    color: #282D6C;
 }
 
 .softwareSection2ListsContainer {
@@ -104,19 +120,43 @@
 
 @media (max-width: 1250px) {
     .softwareSection1 {
-        padding: 0px 0px;
+        padding: 0px;
     }
 
     .softwareSection1 > div > div > p {
         font-size: 1em;
     }
-    
-    .softwareSection2ListsContainer {
-        flex-direction: column;
+
+    .softwareSection2 {
+        padding: 0px;
     }
 
-    .softwareSection2Cloud {
-        margin-top: 50px;
+    .softwareSection2 > p {
+        font-size: 1em;
+    }
+
+    .softwareSection2OnSite > h2 {
+        font-size: 1.5em;
+    }
+
+    .softwareSection2OnSite > div > div {
+        min-width: 200px;
+    }
+
+    .softwareSection2OnSite > div > div > p {
+        font-size: .9em;
+    }
+
+    .softwareSection2Cloud > h2 {
+        font-size: 1.5em;
+    }
+
+    .softwareSection2Cloud > div > div {
+        min-width: 200px;
+    }
+
+    .softwareSection2Cloud > div > div > p {
+        font-size: .9em;
     }
 }
 
@@ -154,6 +194,11 @@
 
     .softwareSection2ListsContainer {
         margin: 0;
+        flex-direction: column;
+    }
+
+    .softwareSection2OnSite {
+        margin: 30px auto 0px auto;
     }
 
     .softwareSection2OnSite > h2 {
@@ -166,6 +211,10 @@
 
     .softwareSection2OnSite > div > div > p {
         font-size: .8em;
+    }
+
+    .softwareSection2Cloud {
+        margin: 30px auto 0px auto;
     }
 
     .softwareSection2Cloud > h2 {
