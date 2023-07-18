@@ -63,7 +63,7 @@ const Partners = () => {
                         transition={{ duration: .5 }}
                     >
                         <div className={styles.partnersSection3}>
-                            <Image className={styles.partnersSection3Image} src="/headshot.jpg" width={150} height={150} />
+                            <Image className={styles.partnersSection3Image} src="/partners_image.jpg" width={150} height={150} />
                             <div>
                                 <p className={styles.partnersSection3Quote}>“We started working with Secom on custom solutions for our customers and never looked back. They make our job easier and if they offer us a solution, I just know that it will work — simple as that.”</p>
                                 <div>
