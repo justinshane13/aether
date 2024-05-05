@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+.main {
+  width: 100vw;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main > div {
+  box-sizing: border-box;
+}
+
+.competitionContainer {
+  width: 100%;
+  max-width: 450px;
+  min-width: 200px;
+  margin: auto;
+  padding: 20px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+    color: #4BB384;
+    font-weight: bold;
+    margin-bottom: -20px;;
+}
+
+.greeting {
+    font-size: 16px;
+    margin-top: 31px;
+    margin-bottom: 7px;
+}
+  
+.subline {
+    font-size: 15px;
+    color: #999999;
+    margin-top: 0px;
+    margin-bottom: 28px;
+    letter-spacing: .05rem;
+}
+
+.rowsHeader {
+    display: flex;
+    padding: 5px;
+    margin-top: -10px;
+    width: 100%;
+}
+
+.rankHeader {
+    width: 30px;
+    text-align: center;
+}
+
+.userHeader {
+    margin-left: 60px;
+    text-align: left;
+}
+
+.streakHeader {
+    margin-left: auto;
+    width: 50px;
+    text-align: left;
+}
+
+.rowsHeader > p {
+    font-size: 12px;
+    color: #999;
+}
+
+.rankContainer {
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.rank {
+    font-size: 13px;
+    font-weight: bold;
+    width: 30px;
+    text-align: center;
+}
+
+.user {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 60px;
+    text-align: left;
+    padding: 10px 0px;
+}
+
+.streak {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: auto;
+    width: 45px;
+    text-align: center;
+}
+
+.dividingLine {
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+}
+
+.medal {
+    margin-bottom: -5px;
+    margin-right: 5px;
+}

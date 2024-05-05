@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+.main {
+  width: 100vw;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main > div {
+  box-sizing: border-box;
+}
+
+.historyContainer {
+  width: 100%;
+  max-width: 450px;
+  min-width: 200px;
+  margin: auto;
+  padding: 20px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+    color: #4BB384;
+    font-weight: bold;
+    margin-bottom: -20px;;
+}
+
+.greeting {
+    font-size: 16px;
+    margin-top: 31px;
+    margin-bottom: 7px;
+}
+  
+.subline {
+    font-size: 15px;
+    color: #999999;
+    margin-top: 0px;
+    margin-bottom: 28px;
+    letter-spacing: .05rem;
+}
+
+.rowsHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: -10px;
+}
+
+.rowsHeader > p {
+    font-size: 12px;
+    color: #999;
+}
+
+.dateContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.date {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.statusIcon {
+    margin-right: 10px;
+}
+
+.dividingLine {
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+}
