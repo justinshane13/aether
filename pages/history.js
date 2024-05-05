@@ -8,7 +8,7 @@ const History = () => {
     return (
         <>
             <Head>
-                <title>SPDPRK | History</title>
+                <title>Aether | History</title>
                 <meta name="keywords" content="history" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>

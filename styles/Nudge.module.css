@@ -13,7 +13,7 @@
 
 .nudgeContainer {
   width: 100%;
-  max-width: 450px;
+  max-width: 480px;
   min-width: 200px;
   margin: auto;
   padding: 20px 20px;
@@ -21,6 +21,8 @@
 
 .pageHeaderGreen {
     height: 90px;
+    width: calc(100vw + 40px);
+    max-width: 480px;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(73,178,132,1) 0%, rgba(129,194,101,1) 100%);
     margin-left: -20px;
@@ -54,7 +56,8 @@
 }
 
 .greeting {
-    font-size: 16px;
+    font-size: 14px;
+    color: #999;
     margin-top: 31px;
     margin-bottom: 7px;
 }

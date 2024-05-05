@@ -1,57 +1,51 @@
-import styles from '@/styles/Nudge.module.css'
+import styles from '@/styles/Rewards.module.css'
 import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head'
 import { useState } from 'react'
 
-const Nudge = () => {
+const Rewards = () => {
     return (
         <>
             <Head>
-                <title>SPDPRK | Nudge</title>
-                <meta name="keywords" content="nudge" />
+                <title>Aether | Rewards</title>
+                <meta name="keywords" content="rewards" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
             <main className={styles.main}>
-                <div className={styles.nudgeContainer}>
+                <div className={styles.rewardsContainer}>
                     <div className={styles.pageHeaderGreen}><Link href="/"><Image className={styles.leftArrow} src={"/left-arrow.png"} width={24} height={24} /></Link></div>
                     <div className={styles.pageHeaderImageDiv}>
-                        <Image src="/nudge.png" width={160} height={160} />
+                        <Image src="/rewards-image.png" width={160} height={160} />
                     </div>
                     <div className={styles.headingContainer}>
-                        <h1 className={styles.heading}>Nudge</h1>
-                        <h1 className={styles.greeting}>These users haven't hit their goal for the day!</h1>
+                        <h1 className={styles.heading}>Rewards</h1>
+                        <h1 className={styles.greeting}>Bask in the glory of your earned rewards!</h1>
                     </div>
-                    <NudgeRow user="MysticEcho87"/>
-                    <NudgeRow user="CyberZenMaster"/>
-                    <NudgeRow user="WanderlustDreamer"/>
-                    <NudgeRow user="NovaNomad2023"/>
-                    <NudgeRow user="CosmicVoyager123"/>
-                    <NudgeRow user="PixelPioneer92"/>
-                    <NudgeRow user="MidnightWhisperer"/>
-                    <NudgeRow user="SereneSeeker99"/>
-                    <NudgeRow user="DreamWeaverEternal"/>
+                    <div className={styles.rewardsButtonWrapper}>
+                        <RewardsBox streak="1 Day" image="/medal.png"/>
+                        <RewardsBox streak="7 Days" image="/medal-2.png"/>
+                        <RewardsBox streak="14 Days" image="/medal-3.png"/>
+                        <RewardsBox streak="30 Days" image="/ribbon.png"/>
+                        <RewardsBox streak="45 Days" image="/medal-4.png"/>
+                        <RewardsBox streak="60 Days" image="/rewards.png"/>
+                    </div>
                 </div>
             </main>
         </>
     );
 }
 
-const NudgeRow = ({ user }) => {
-    const [isNudged, setIsNudged] = useState(false);
-
-    const handleClick = () => {
-        setIsNudged(!isNudged);
-    }
+const RewardsBox = ({ streak, image }) => {
 
     return (
         <div>
-            <div className={styles.nudgeButtonContainer}>
-                <p className={styles.user}>{user}</p>
-                <div onClick={handleClick} className={isNudged ? styles.nudged : styles.nudge}><p>{isNudged ? "Nudged!" : "Nudge"}</p></div>
+            <div className={styles.rewardsButtonContainer}>
+                <p className={styles.streak}>{streak}</p>
+                <Image className={styles.streakImage} src={image} width={70} height={70} />
             </div>
         </div>
     )
 }
 
-export default Nudge;
+export default Rewards;

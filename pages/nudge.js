@@ -8,7 +8,7 @@ const Nudge = () => {
     return (
         <>
             <Head>
-                <title>SPDPRK | Nudge</title>
+                <title>Aether | Nudge</title>
                 <meta name="keywords" content="nudge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>

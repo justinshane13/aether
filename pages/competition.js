@@ -8,7 +8,7 @@ const Competition = () => {
     return (
         <>
             <Head>
-                <title>SPDPRK | Competition</title>
+                <title>Aether | Competition</title>
                 <meta name="keywords" content="competition" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
