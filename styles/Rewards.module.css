@@ -13,7 +13,7 @@
 
 .rewardsContainer {
   width: 100%;
-  max-width: 480px;
+  max-width: 490px;
   min-width: 200px;
   margin: auto;
   padding: 20px 20px;
@@ -26,7 +26,7 @@
     margin-left: -20px;
     margin-top: -20px;
     width: calc(100vw + 40px);
-    max-width: 480px;
+    max-width: 490px;
 }
 
 .leftArrow {
