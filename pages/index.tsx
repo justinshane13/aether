@@ -22,18 +22,18 @@ export default function Home() {
           <p className={styles.subline}>What do you want to do today?</p>
 
           <Link className={styles.linkContainerGreen} href="/history">
-            <div className={styles.linkContainerCircle}><Image src={"/scroll.png"} alt="history icon" width={32} height={32} /></div>
+            <div className={styles.linkContainerCircle}><Image src={"/scroll.png"} alt="history icon" width={32} height={32} className={styles.historyIcon} /></div>
             <div>
               <div className={styles.linkContainerTextLarge}>View History!</div>
-              <div className={styles.linkContainerTextSmall}>Check your streak and reward status.</div>
+              <div className={styles.linkContainerTextSmall}>Check your streak and reward status</div>
             </div>
           </Link>
 
           <Link className={styles.linkContainerPurple} href="/competition">
-            <div className={styles.linkContainerCircle}><Image src={"/trophy.png"} alt="trophy icon" width={32} height={32} /></div>
+            <div className={styles.linkContainerCircle}><Image src={"/trophy.png"} alt="trophy icon" width={32} height={32} className={styles.trophyIcon} /></div>
             <div>
               <div className={styles.linkContainerTextLarge}>Competition Status!</div>
-              <div className={styles.linkContainerTextSmall}>See how you rank against the community.</div>
+              <div className={styles.linkContainerTextSmall}>See how you rank against the community</div>
             </div>
           </Link>
 
@@ -41,7 +41,7 @@ export default function Home() {
             <Image className={styles.linkContainerImage} src={"/rewards-image2.png"} alt="rewards icon" width={122} height={122} />
             <div>
               <div className={styles.linkContainerTextLargeBlack}>Rewards</div>
-              <div className={styles.linkContainerTextSmallGray}>You have two unclaimed rewards.</div>
+              <div className={styles.linkContainerTextSmallGray}>You have two unclaimed rewards</div>
             </div>
             <Image className={styles.rightArrow} src={"/right-arrow-2.png"} alt="right arrow" width={12} height={12} />
           </Link>
@@ -50,7 +50,7 @@ export default function Home() {
             <Image className={styles.linkContainerImage} src={"/nudge.png"} alt="nudge icon" width={122} height={122} />
             <div>
               <div className={styles.linkContainerTextLargeBlack}>Nudge Your Friends</div>
-              <div className={styles.linkContainerTextSmallGray}>Help others meet their daily goal.</div>
+              <div className={styles.linkContainerTextSmallGray}>Help others meet their daily goal</div>
             </div>
             <Image className={styles.rightArrow} src={"/right-arrow-2.png"} alt="right arrow" width={12} height={12} />
           </Link>

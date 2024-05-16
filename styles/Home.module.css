@@ -80,6 +80,14 @@
   position: relative;
 }
 
+.historyIcon {
+  margin-top: 3px;
+}
+
+.trophyIcon {
+  margin-top: 3px;
+}
+
 .linkContainerTextLarge {
   margin-left: 12px;
   margin-bottom: 7px;

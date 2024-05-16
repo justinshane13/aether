@@ -16,7 +16,7 @@ const Rewards = () => {
                 <div className={styles.rewardsContainer}>
                     <div className={styles.pageHeaderGreen}><Link href="/"><Image className={styles.leftArrow} src={"/left-arrow.png"} alt="left arrow" width={24} height={24} /></Link></div>
                     <div className={styles.pageHeaderImageDiv}>
-                        <Image src="/rewards-image.png" alt="rewards icon" width={160} height={160} />
+                        <Image src="/rewards-image2.png" alt="rewards icon" width={160} height={160} />
                     </div>
                     <div className={styles.headingContainer}>
                         <h1 className={styles.heading}>Rewards</h1>
