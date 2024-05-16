@@ -1,4 +1,4 @@
-import styles from '@/styles/Nudge.module.css'
+import styles from '../styles/Nudge.module.css'
 import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head'
@@ -14,9 +14,9 @@ const Nudge = () => {
             </Head>
             <main className={styles.main}>
                 <div className={styles.nudgeContainer}>
-                    <div className={styles.pageHeaderGreen}><Link href="/"><Image className={styles.leftArrow} src={"/left-arrow.png"} width={24} height={24} /></Link></div>
+                    <div className={styles.pageHeaderGreen}><Link href="/"><Image className={styles.leftArrow} src={"/left-arrow.png"} alt="left arrow" width={24} height={24} /></Link></div>
                     <div className={styles.pageHeaderImageDiv}>
-                        <Image src="/nudge.png" width={160} height={160} />
+                        <Image src="/nudge.png" alt="nudge icon" width={160} height={160} />
                     </div>
                     <div className={styles.headingContainer}>
                         <h1 className={styles.heading}>Nudge</h1>

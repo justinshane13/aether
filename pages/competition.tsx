@@ -1,8 +1,8 @@
-import styles from '@/styles/Competition.module.css'
+import styles from '../styles/Competition.module.css'
 import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head'
-import Navbar from '@/comps/Navbar';
+import Navbar from '../comps/Navbar';
 
 const Competition = () => {
     return (
@@ -23,9 +23,9 @@ const Competition = () => {
                         <p className={styles.userHeader}>User</p>
                         <p className={styles.streakHeader}>Streak</p>
                     </div>
-                    <RankingRow rank="1" image={<Image className={styles.medal} src="/gold.png" width={20} height={20} />} user={"PixelPioneer92"} streakLength="104" />
-                    <RankingRow rank="2" image={<Image className={styles.medal} src="/silver.png" width={20} height={20} />} user="WanderlustDreamer" streakLength="99" />
-                    <RankingRow rank="3" image={<Image className={styles.medal} src="/bronze.png" width={20} height={20} />} user="TechSavvyExplorer" streakLength="98" />
+                    <RankingRow rank="1" image={<Image className={styles.medal} src="/gold.png" alt="gold medal" width={20} height={20} />} user={"PixelPioneer92"} streakLength="104" />
+                    <RankingRow rank="2" image={<Image className={styles.medal} src="/silver.png" alt="silver medal" width={20} height={20} />} user="WanderlustDreamer" streakLength="99" />
+                    <RankingRow rank="3" image={<Image className={styles.medal} src="/bronze.png" alt="bronze medal" width={20} height={20} />} user="TechSavvyExplorer" streakLength="98" />
                     <RankingRow rank="4" image={null} user="MidnightWhisperer" streakLength="85" />
                     <RankingRow rank="5" image={null} user="SereneSeeker99" streakLength="83" />
                     <RankingRow rank="6" image={null} user="CosmicVoyager123" streakLength="83" />

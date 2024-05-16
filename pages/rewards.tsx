@@ -1,4 +1,4 @@
-import styles from '@/styles/Rewards.module.css'
+import styles from '../styles/Rewards.module.css'
 import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head'
@@ -14,9 +14,9 @@ const Rewards = () => {
             </Head>
             <main className={styles.main}>
                 <div className={styles.rewardsContainer}>
-                    <div className={styles.pageHeaderGreen}><Link href="/"><Image className={styles.leftArrow} src={"/left-arrow.png"} width={24} height={24} /></Link></div>
+                    <div className={styles.pageHeaderGreen}><Link href="/"><Image className={styles.leftArrow} src={"/left-arrow.png"} alt="left arrow" width={24} height={24} /></Link></div>
                     <div className={styles.pageHeaderImageDiv}>
-                        <Image src="/rewards-image.png" width={160} height={160} />
+                        <Image src="/rewards-image.png" alt="rewards icon" width={160} height={160} />
                     </div>
                     <div className={styles.headingContainer}>
                         <h1 className={styles.heading}>Rewards</h1>
@@ -42,7 +42,7 @@ const RewardsBox = ({ streak, image }) => {
         <div>
             <div className={styles.rewardsButtonContainer}>
                 <p className={styles.streak}>{streak}</p>
-                <Image className={styles.streakImage} src={image} width={70} height={70} />
+                <Image className={styles.streakImage} src={image} alt="streak icon" width={70} height={70} />
             </div>
         </div>
     )

@@ -1,8 +1,8 @@
-import styles from '@/styles/History.module.css'
+import styles from '../styles/History.module.css'
 import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head'
-import Navbar from '@/comps/Navbar';
+import Navbar from '../comps/Navbar';
 
 const History = () => {
     return (
@@ -64,7 +64,7 @@ const HistoryRow = ({date, metGoal}) => {
         <div>
             <div className={styles.dateContainer}>
                 <p className={styles.date}>{date}</p>
-                <Image className={styles.statusIcon} src={metGoal ? "/check.png" : "/cancel.png"} width={25} height={25} />
+                <Image className={styles.statusIcon} src={metGoal ? "/check.png" : "/cancel.png"} alt="status icon" width={25} height={25} />
             </div>
             <div className={styles.dividingLine}></div>
         </div>
